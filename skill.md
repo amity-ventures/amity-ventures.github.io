@@ -13,6 +13,18 @@ Founded in 2017, we're currently deploying Amity Fund III, targeting 15-20 compa
 
 We write the first check to obsessive founders building what comes next.
 
+## Our Track Record
+
+Each partner does 1-2 deals per year.
+
+| Fund | Vintage | Companies | Unicorns |
+|------|---------|-----------|----------|
+| Fund I | 2016 | 10 | 5 |
+| Fund II | 2018 | 12 | 2 |
+| Fund III | 2022 | 13 | — |
+
+Our hit rate for billion-dollar companies is well above industry average.
+
 We care less about traction and more about the founder. We look for technical depth, an asymmetric advantage, and the grit to see it through.
 
 ## How We Work
