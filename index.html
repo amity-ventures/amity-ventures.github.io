@@ -23,7 +23,7 @@
 
     <section class="hero">
         <div class="hero-bg">
-            <img src="assets/images/gg2.png" alt="" />
+            <video src="assets/images/gg_video.mp4" autoplay muted loop playsinline></video>
         </div>
         <div class="hero-overlay"></div>
         <div class="hero-agent-bg"></div>
@@ -737,7 +737,7 @@
         }
 
         // Parallax on hero background image
-        const heroBgImg = document.querySelector('.hero-bg img');
+        const heroBgImg = document.querySelector('.hero-bg video');
         const isMobile = window.matchMedia('(max-width: 768px)').matches;
 
         function updateParallax() {
