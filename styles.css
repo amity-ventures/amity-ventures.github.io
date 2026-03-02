@@ -681,7 +681,7 @@ p.definition {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    color: #666;
+    color: #888;
     margin-bottom: 3rem;
 }
 
@@ -699,7 +699,7 @@ p.definition {
 .approach-num {
     display: block;
     font-size: 0.7rem;
-    color: #555;
+    color: #777;
     margin-bottom: 0.8rem;
     letter-spacing: 0.05em;
 }
@@ -707,7 +707,7 @@ p.definition {
 .approach-item p {
     font-size: 0.9rem;
     line-height: 1.65;
-    color: #aaa;
+    color: #ccc;
 }
 
 .approach-cta {
@@ -723,7 +723,7 @@ p.definition {
 .approach-cta p {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.8rem;
-    color: #666;
+    color: #888;
     margin-bottom: 0.6rem;
 }
 
@@ -732,7 +732,7 @@ p.definition {
     font-size: 1.8rem;
     font-weight: 400;
     color: #e8e8e8;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #666;
     padding-bottom: 0.05em;
     transition: border-color 0.2s ease;
 }
@@ -769,7 +769,7 @@ footer {
     padding: 2rem 3rem;
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.75rem;
-    color: #555;
+    color: #777;
     background: #111;
     border-top: 1px solid #222;
 }
@@ -807,13 +807,13 @@ footer {
 
 .footer-links a {
     font-size: 0.65rem;
-    color: #444;
+    color: #666;
     letter-spacing: 0.05em;
     transition: color 0.2s ease;
 }
 
 .footer-links a:hover {
-    color: #999;
+    color: #ccc;
 }
 
 /* ================================
