@@ -1039,7 +1039,7 @@ body.agent-mode .agent-brief {
 
 .agent-team-row {
     display: grid;
-    grid-template-columns: 180px 180px 1fr;
+    grid-template-columns: 180px 1fr;
     gap: 1rem;
     padding: 0.75rem 0;
     border-bottom: 1px solid #1a1a1a;
@@ -1057,11 +1057,6 @@ body.agent-mode .agent-brief {
 
 .atr-role {
     color: #666;
-}
-
-.atr-focus {
-    color: #444;
-    text-align: right;
 }
 
 /* Agent portfolio */
@@ -1305,10 +1300,6 @@ body.agent-mode .agent-brief {
         grid-template-columns: 1fr;
         gap: 0.15rem;
         padding: 0.6rem 0;
-    }
-
-    .atr-focus {
-        text-align: left;
     }
 
     .agent-portfolio-row {
