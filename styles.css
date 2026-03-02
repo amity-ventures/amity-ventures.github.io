@@ -795,6 +795,27 @@ footer {
     padding: 0.22rem 0.72rem 0.34rem;
 }
 
+.footer-links {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 1rem;
+    border-top: 1px solid #222;
+    margin-top: 0.4rem;
+}
+
+.footer-links a {
+    font-size: 0.65rem;
+    color: #444;
+    letter-spacing: 0.05em;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: #999;
+}
+
 /* ================================
    Agent Mode
    ================================ */
@@ -1274,6 +1295,12 @@ body.agent-mode .agent-brief {
 
     .footer-restraint-quote {
         white-space: normal;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        gap: 0.8rem 1.5rem;
+        justify-content: flex-start;
     }
 
     /* Agent mode responsive */
