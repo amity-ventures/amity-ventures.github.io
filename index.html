@@ -19,12 +19,43 @@
             <a href="#team">Team</a>
             <a href="mailto:founders@amity.vc">Contact</a>
         </div>
+        <div class="nav-time-picker">
+            <button type="button" class="nav-time-trigger" id="nav-time-trigger" aria-haspopup="true" aria-expanded="false" aria-controls="nav-time-menu" aria-label="Adjust bridge light simulation">
+                <svg class="nav-time-icon nav-time-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path d="M12 2.5v2.3"></path>
+                    <path d="M12 19.2v2.3"></path>
+                    <path d="M4.9 4.9l1.6 1.6"></path>
+                    <path d="M17.5 17.5l1.6 1.6"></path>
+                    <path d="M2.5 12h2.3"></path>
+                    <path d="M19.2 12h2.3"></path>
+                    <path d="M4.9 19.1l1.6-1.6"></path>
+                    <path d="M17.5 6.5l1.6-1.6"></path>
+                </svg>
+                <svg class="nav-time-icon nav-time-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20.2 14.1A8.7 8.7 0 1 1 10 3.8a7 7 0 0 0 10.2 10.3z"></path>
+                </svg>
+            </button>
+            <div class="nav-time-menu" id="nav-time-menu" aria-label="Bridge lighting presets">
+                <span class="nav-time-meta">bridge light <span class="nav-time-current">Auto</span></span>
+                <div class="nav-time-options nav-time-options-primary" role="group" aria-label="Auto preset">
+                    <button type="button" class="nav-time-btn is-active" data-hero-time="auto" aria-pressed="true">Auto</button>
+                </div>
+                <div class="nav-time-options nav-time-options-secondary" role="group" aria-label="Time of day presets">
+                    <button type="button" class="nav-time-btn" data-hero-time="dawn" aria-pressed="false">Dawn</button>
+                    <button type="button" class="nav-time-btn" data-hero-time="day" aria-pressed="false">Day</button>
+                    <button type="button" class="nav-time-btn" data-hero-time="dusk" aria-pressed="false">Dusk</button>
+                    <button type="button" class="nav-time-btn" data-hero-time="night" aria-pressed="false">Night</button>
+                </div>
+            </div>
+        </div>
     </nav>
 
     <section class="hero">
         <div class="hero-bg">
             <video src="assets/images/gg_video.mp4" autoplay muted loop playsinline></video>
         </div>
+        <div class="hero-time-overlay"></div>
         <div class="hero-overlay"></div>
         <div class="hero-agent-bg"></div>
         <div class="hero-content">
@@ -552,6 +583,126 @@
         if (window.location.hash === '#agent') {
             document.body.classList.add('agent-mode');
         }
+
+        (function initHeroTimePresets() {
+            const presetOrder = ['auto', 'dawn', 'day', 'dusk', 'night'];
+            const presetLabels = {
+                auto: 'Auto',
+                dawn: 'Dawn',
+                day: 'Day',
+                dusk: 'Dusk',
+                night: 'Night'
+            };
+            const storageKey = 'amityHeroTimePreset';
+            const buttons = Array.prototype.slice.call(document.querySelectorAll('.nav-time-btn'));
+            const currentLabel = document.querySelector('.nav-time-current');
+            const picker = document.querySelector('.nav-time-picker');
+            const trigger = document.getElementById('nav-time-trigger');
+            const sfHourFormatter = new Intl.DateTimeFormat('en-US', {
+                hour: '2-digit',
+                hour12: false,
+                timeZone: 'America/Los_Angeles'
+            });
+
+            if (!buttons.length || !picker || !trigger) return;
+
+            function setMenuOpen(isOpen) {
+                picker.classList.toggle('is-open', isOpen);
+                trigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            }
+
+            function getSanFranciscoHour() {
+                const hourText = sfHourFormatter.format(new Date());
+                const hour = parseInt(hourText, 10);
+                if (Number.isNaN(hour)) return new Date().getHours();
+                return hour;
+            }
+
+            function getAutoPresetByHour() {
+                const hour = getSanFranciscoHour();
+                if (hour >= 5 && hour < 8) return 'dawn';
+                if (hour >= 8 && hour < 17) return 'day';
+                if (hour >= 17 && hour < 20) return 'dusk';
+                return 'night';
+            }
+
+            function normalizePreset(preset) {
+                if (presetOrder.indexOf(preset) === -1) return 'auto';
+                return preset;
+            }
+
+            function setActivePreset(preset) {
+                const selectedPreset = normalizePreset(preset);
+                const effectivePreset = selectedPreset === 'auto' ? getAutoPresetByHour() : selectedPreset;
+
+                document.body.dataset.heroTimeMode = selectedPreset;
+                document.body.dataset.heroTime = effectivePreset;
+
+                buttons.forEach(function(button) {
+                    const isActive = button.dataset.heroTime === selectedPreset;
+                    button.classList.toggle('is-active', isActive);
+                    button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+                });
+
+                if (currentLabel) {
+                    currentLabel.textContent = selectedPreset === 'auto'
+                        ? 'Auto (' + presetLabels[effectivePreset] + ')'
+                        : presetLabels[selectedPreset];
+                }
+            }
+
+            function persistPreset(preset) {
+                try {
+                    window.localStorage.setItem(storageKey, preset);
+                } catch (error) {
+                    // Ignore storage failures in private browsing modes.
+                }
+            }
+
+            function getPersistedPreset() {
+                try {
+                    return window.localStorage.getItem(storageKey);
+                } catch (error) {
+                    return null;
+                }
+            }
+
+            buttons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    const preset = normalizePreset(button.dataset.heroTime || 'auto');
+                    setActivePreset(preset);
+                    persistPreset(preset);
+                    setMenuOpen(false);
+                });
+            });
+
+            trigger.addEventListener('click', function(event) {
+                event.stopPropagation();
+                setMenuOpen(!picker.classList.contains('is-open'));
+            });
+
+            document.addEventListener('click', function(event) {
+                if (!picker.contains(event.target)) {
+                    setMenuOpen(false);
+                }
+            });
+
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape') {
+                    setMenuOpen(false);
+                }
+            });
+
+            const initialPreset = normalizePreset(getPersistedPreset() || 'auto');
+            setActivePreset(initialPreset);
+            setMenuOpen(false);
+
+            window.setInterval(function() {
+                if ((document.body.dataset.heroTimeMode || 'auto') === 'auto') {
+                    setActivePreset('auto');
+                }
+            }, 60000);
+        })();
 
         function toggleMore() {
             const more = document.getElementById('more-companies');
