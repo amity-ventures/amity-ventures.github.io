@@ -6,7 +6,7 @@
     <title>Amity Reserve</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -19,7 +19,7 @@
         }
 
         body {
-            font-family: 'Crimson Pro', Georgia, serif;
+            font-family: 'JetBrains Mono', monospace;
             background: #111;
             color: #e8e8e8;
             min-height: 100vh;
@@ -57,9 +57,8 @@
         }
 
         .reserve-nav .nav-link {
-            font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
-            color: #555;
+            color: #777;
             letter-spacing: 0.05em;
             transition: color 0.2s ease;
         }
@@ -73,34 +72,48 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             padding: 0 3rem;
-            text-align: center;
+            max-width: 640px;
+            margin: 0 auto;
         }
 
         .reserve-title {
-            font-family: 'JetBrains Mono', monospace;
             font-size: 0.7rem;
             font-weight: 500;
             text-transform: uppercase;
             letter-spacing: 0.2em;
-            color: #555;
+            color: #777;
             margin-bottom: 2.5rem;
         }
 
         .reserve-desc {
-            font-size: 1.5rem;
-            line-height: 1.6;
-            max-width: 560px;
-            color: #999;
+            font-size: 0.95rem;
+            line-height: 1.8;
+            max-width: 540px;
+            color: #888;
             margin-bottom: 3rem;
         }
 
+        .reserve-desc .scramble-word {
+            display: inline-block;
+            white-space: nowrap;
+        }
+
+        .reserve-desc .scramble-char {
+            display: inline-block;
+            transition: color 0.08s ease;
+            cursor: default;
+        }
+
+        .reserve-desc .scramble-char.scrambling {
+            color: #e8e8e8;
+        }
+
         .reserve-login {
-            font-family: 'JetBrains Mono', monospace;
             font-size: 0.8rem;
-            color: #888;
-            border-bottom: 1px solid #333;
+            color: #aaa;
+            border-bottom: 1px solid #555;
             padding-bottom: 2px;
             letter-spacing: 0.05em;
             transition: color 0.2s ease, border-color 0.2s ease;
@@ -116,19 +129,18 @@
             justify-content: space-between;
             align-items: center;
             padding: 2rem 3rem;
-            font-family: 'JetBrains Mono', monospace;
             font-size: 0.65rem;
-            color: #333;
+            color: #555;
             border-top: 1px solid #1a1a1a;
         }
 
         .reserve-footer a {
-            color: #444;
+            color: #666;
             transition: color 0.2s ease;
         }
 
         .reserve-footer a:hover {
-            color: #999;
+            color: #ccc;
         }
 
         .reserve-footer-links {
@@ -150,7 +162,7 @@
             }
 
             .reserve-desc {
-                font-size: 1.25rem;
+                font-size: 0.85rem;
             }
 
             .reserve-footer {
@@ -170,7 +182,7 @@
 
     <main class="reserve-main">
         <span class="reserve-title">Amity Reserve</span>
-        <p class="reserve-desc">Leveraging over a decade of experience investing in digital assets, Amity Reserve manages various strategies on behalf of the team at Amity and other investors.</p>
+        <p class="reserve-desc" id="scramble-text">Leveraging over a decade of experience investing in digital assets, Amity Reserve manages various strategies on behalf of the team at Amity and other investors.</p>
         <a href="https://amity.formidium.com/login" target="_blank" rel="noopener" class="reserve-login">LP Login &rarr;</a>
     </main>
 
@@ -181,5 +193,92 @@
             <a href="privacy-policy.html">Privacy Policy</a>
         </div>
     </footer>
+
+    <script>
+        var glyphs = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%&*+=?/\\|{}[]<>~^';
+        var container = document.getElementById('scramble-text');
+        var originalText = container.textContent.trim();
+        var chars = [];
+        var pixelRadius = 60;
+        var scrambleSpeed = 40;
+        var mouseX = -9999;
+        var mouseY = -9999;
+        var animFrame = null;
+        var isHovering = false;
+
+        // Split into words, wrap each word in a span (preserves normal word-wrap),
+        // then wrap each character within words
+        var words = originalText.split(/(\s+)/);
+        container.innerHTML = '';
+        for (var w = 0; w < words.length; w++) {
+            var word = words[w];
+            // Whitespace chunks become text nodes to preserve spacing
+            if (/^\s+$/.test(word)) {
+                container.appendChild(document.createTextNode(word));
+                continue;
+            }
+            var wordSpan = document.createElement('span');
+            wordSpan.className = 'scramble-word';
+            for (var c = 0; c < word.length; c++) {
+                var span = document.createElement('span');
+                span.textContent = word[c];
+                span.className = 'scramble-char';
+                span.dataset.original = word[c];
+                wordSpan.appendChild(span);
+                chars.push(span);
+            }
+            container.appendChild(wordSpan);
+        }
+
+        function scrambleLoop() {
+            if (!isHovering) {
+                animFrame = null;
+                return;
+            }
+
+            for (var i = 0; i < chars.length; i++) {
+                var ch = chars[i];
+                var rect = ch.getBoundingClientRect();
+                var cx = rect.left + rect.width / 2;
+                var cy = rect.top + rect.height / 2;
+                var dx = mouseX - cx;
+                var dy = mouseY - cy;
+                var dist = Math.sqrt(dx * dx + dy * dy);
+
+                if (dist < pixelRadius) {
+                    // Closer = more likely to scramble each frame
+                    var intensity = 1 - (dist / pixelRadius);
+                    if (Math.random() < intensity * 0.5) {
+                        ch.textContent = glyphs[Math.floor(Math.random() * glyphs.length)];
+                        ch.classList.add('scrambling');
+                    }
+                } else if (ch.classList.contains('scrambling')) {
+                    // Outside radius: resolve back
+                    ch.textContent = ch.dataset.original;
+                    ch.classList.remove('scrambling');
+                }
+            }
+
+            animFrame = requestAnimationFrame(scrambleLoop);
+        }
+
+        container.addEventListener('mousemove', function(e) {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+            if (!isHovering) {
+                isHovering = true;
+                scrambleLoop();
+            }
+        });
+
+        container.addEventListener('mouseleave', function() {
+            isHovering = false;
+            // Resolve all chars back
+            for (var i = 0; i < chars.length; i++) {
+                chars[i].textContent = chars[i].dataset.original;
+                chars[i].classList.remove('scrambling');
+            }
+        });
+    </script>
 </body>
 </html>
