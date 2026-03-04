@@ -81,17 +81,5 @@ We're not passive capital. When we invest:
 
 ## Contact
 
-- **Email:** founders@amity.vc
 - **Location:** Presidio, San Francisco, CA
 - **Web:** https://amity.vc
-
-## Reaching Out
-
-Email **founders@amity.vc** with the following:
-
-1. What you're building and why now
-2. Your background and what makes you the right team
-3. Current stage (revenue, users, funding, etc.)
-4. What you're raising and how you'd use the capital
-
-We read every email. If there's a fit, expect a reply within a week.
