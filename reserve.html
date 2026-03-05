@@ -125,13 +125,16 @@
         }
 
         .reserve-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             padding: 2rem 3rem;
             font-size: 0.65rem;
             color: #555;
             border-top: 1px solid #1a1a1a;
+        }
+
+        .reserve-footer-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         .reserve-footer a {
@@ -149,16 +152,16 @@
         }
 
         .reserve-footer-disclosures {
-            padding-top: 1rem;
+            padding-top: 1.2rem;
             border-top: 1px solid #1a1a1a;
-            margin-top: 0.8rem;
+            margin-top: 1.2rem;
         }
 
         .reserve-footer-disclosures p {
-            font-size: 0.6rem;
-            color: #555;
-            line-height: 1.6;
-            margin-bottom: 0.3rem;
+            font-size: 0.58rem;
+            color: #444;
+            line-height: 1.7;
+            margin-bottom: 0.25rem;
             letter-spacing: 0.02em;
         }
 
@@ -184,10 +187,18 @@
             }
 
             .reserve-footer {
+                padding: 1.5rem;
+            }
+
+            .reserve-footer-top {
                 flex-direction: column;
                 gap: 0.8rem;
                 align-items: flex-start;
-                padding: 1.5rem;
+            }
+
+            .reserve-footer-links {
+                flex-wrap: wrap;
+                gap: 0.6rem 1.2rem;
             }
         }
     </style>
@@ -205,11 +216,13 @@
     </main>
 
     <footer class="reserve-footer">
-        <span>&copy; 2026 Amity Ventures</span>
-        <div class="reserve-footer-links">
-            <a href="/">Home</a>
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <a href="https://adviserinfo.sec.gov/firm/summary/290313" target="_blank" rel="noopener">Form ADV</a>
+        <div class="reserve-footer-top">
+            <span>&copy; 2026 Amity Ventures</span>
+            <div class="reserve-footer-links">
+                <a href="/">Home</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="https://adviserinfo.sec.gov/firm/summary/290313" target="_blank" rel="noopener">Form ADV</a>
+            </div>
         </div>
         <div class="reserve-footer-disclosures">
             <p>Amity Ventures LLC is a registered investment adviser with the Securities and Exchange Commission. Registration does not imply a certain level of skill or training.</p>

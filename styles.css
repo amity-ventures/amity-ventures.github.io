@@ -978,9 +978,9 @@ footer {
     display: flex;
     gap: 2rem;
     justify-content: center;
-    padding-top: 1rem;
+    padding-top: 1.2rem;
     border-top: 1px solid #222;
-    margin-top: 0.4rem;
+    margin-top: 0.2rem;
 }
 
 .footer-links a {
@@ -996,16 +996,16 @@ footer {
 
 .footer-disclosures {
     grid-column: 1 / -1;
-    padding-top: 1rem;
+    padding-top: 1.2rem;
     border-top: 1px solid #222;
-    margin-top: 0.4rem;
+    margin-top: 0.2rem;
 }
 
 .footer-disclosures p {
-    font-size: 0.6rem;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 0.3rem;
+    font-size: 0.58rem;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 0.25rem;
     letter-spacing: 0.02em;
 }
 
