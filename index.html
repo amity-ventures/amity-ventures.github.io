@@ -627,8 +627,7 @@
         <div class="footer-links">
             <a href="privacy-policy.html">Privacy Policy</a>
             <a href="https://adviserinfo.sec.gov/firm/summary/290313" target="_blank" rel="noopener">Form ADV</a>
-            <a href="https://login.app.carta.com/credentials/login/" target="_blank" rel="noopener">LP Login: Carta</a>
-            <a href="https://amity.arkpes.com" target="_blank" rel="noopener">LP Login: Standish</a>
+            <a href="#" onclick="document.getElementById('lp-login-modal').classList.add('active');return false;">LP Login</a>
             <a href="reserve.html">Amity Reserve</a>
         </div>
         <div class="footer-disclosures">
@@ -637,7 +636,31 @@
             <p>This website does not constitute an offer to sell or a solicitation of an offer to buy any securities.</p>
         </div>
     </footer>
+
+    <!-- LP Login Modal -->
+    <div id="lp-login-modal" class="lp-modal-overlay" onclick="if(event.target===this)this.classList.remove('active')">
+        <div class="lp-modal">
+            <button class="lp-modal-close" onclick="document.getElementById('lp-login-modal').classList.remove('active')">&times;</button>
+            <h3 class="lp-modal-title">LP Login</h3>
+            <p class="lp-modal-subtitle">Select your fund portal</p>
+            <div class="lp-modal-options">
+                <a href="https://login.app.carta.com/credentials/login/" target="_blank" rel="noopener" class="lp-modal-option">
+                    <span class="lp-modal-option-name">Carta</span>
+                    <span class="lp-modal-option-desc">Opportunity Fund I</span>
+                </a>
+                <a href="https://amity.arkpes.com" target="_blank" rel="noopener" class="lp-modal-option">
+                    <span class="lp-modal-option-name">Standish</span>
+                    <span class="lp-modal-option-desc">All other funds</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
     <script>
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') document.getElementById('lp-login-modal').classList.remove('active');
+        });
+
         function setMode(mode) {
             var body = document.body;
             var agentContent = document.querySelector('.hero-agent-content');
@@ -817,10 +840,9 @@
                 title: 'Managing Partner',
                 origin: 'San Francisco, CA',
                 photo: 'assets/images/reim.jpeg',
-                bio: 'CJ co-founded Amity in 2016 to collaborate with leading technology companies. His philosophy centers on "permanent software," and he actively mentors entrepreneurs in developing and scaling ventures. He has over a decade of experience in digital assets, including participation in Ethereum\'s original Genesis Block, contributions to Core DAO, and investments in multiple leading cryptocurrency exchanges.',
+                bio: 'CJ co-founded Amity in 2016 with a view to partner with the world\'s best technology companies. Guided by his vision for "permanent software," CJ dedicates his time and expertise to helping entrepreneurs develop and scale their businesses. CJ currently serves on the boards of Avochato, Borderless Labs, Ditto, Element Wallet, Fount, MaintainX and Stationwise, in addition to managing the firm\'s holdings in Core, Carta and Talkdesk among others.\n\nWith over a decade of experience in the digital asset ecosystem, CJ has been at the forefront of blockchain technology. He is an Initial Contributor to Core DAO, an investor in multiple leading crypto exchanges, and was a participant in the original Genesis Block of Ethereum.\n\nPrior to founding Amity, CJ was a Vice President at Highland Capital Partners in Palo Alto where he focused on technology investments across all stages of company growth.',
                 education: 'B.S. in Management with concentrations in Finance and Information Systems, Boston College',
-                previousRole: 'Vice President at Highland Capital Partners (Palo Alto), focusing on technology investments across company growth stages',
-                boards: ['Avochato', 'Borderless Labs', 'Ditto', 'Fount', 'MaintainX', 'Stationwise'],
+                boards: ['Avochato', 'Borderless Labs', 'Carta', 'Core', 'Ditto', 'Isara', 'Lucenia', 'MaintainX', 'OurFirm', 'Stationwise', 'Talkdesk'],
                 bookRecommendation: 'A Message to Garcia by Elbert Hubbard',
                 firstJob: 'Caddie',
                 hiddenTalent: 'Spearfishing',
@@ -831,7 +853,7 @@
                 title: 'Partner',
                 origin: 'San Francisco, CA',
                 photo: 'assets/images/yang.jpeg',
-                bio: 'Patrick co-founded Amity in 2016 and dedicates himself to being the most impactful partner to high agency, high ambition founders. He currently serves on the boards of Arketa, Controlrooms.ai, Mayfair, Sully.ai, and Usage AI, and manages the firm\'s investments in CaptivateIQ and Tilly Therapy.\n\nPrior to Amity, Patrick was a Vice President at Highland Capital Partners. Patrick started his career at Morgan Stanley in their Menlo Park technology investment banking group.',
+                bio: 'Patrick co-founded Amity in 2016 and dedicates himself to being the most impactful partner to high agency, high ambition founders.\n\nPrior to Amity, Patrick was a Vice President at Highland Capital Partners. Patrick started his career at Morgan Stanley in their Menlo Park technology investment banking group.',
                 education: 'B.S. in Business Administration with Engineering Leadership concentration, UC Berkeley',
                 boards: ['Arketa', 'Controlrooms.ai', 'Mayfair', 'Sully.ai', 'Usage AI'],
                 interests: 'Tennis, apres-ski, Golden State Warriors',
@@ -1004,7 +1026,7 @@
             if (member.boards) {
                 html += `
                     <div class="modal-section">
-                        <h4>Current Boards</h4>
+                        <h4>Partner To</h4>
                         <div class="modal-tags">${member.boards.map(function(board) { return `<span class="modal-tag">${board}</span>`; }).join('')}</div>
                     </div>
                 `;
