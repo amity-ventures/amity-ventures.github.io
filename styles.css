@@ -358,6 +358,37 @@ nav.nav-scrolled .nav-time-trigger:focus-visible {
     color: #1a1a1a;
 }
 
+/* Intro stats row */
+
+.intro-stats {
+    display: flex;
+    gap: 3rem;
+    margin: 2.5rem 0;
+    padding-top: 1.2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.intro-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.stat-value {
+    font-family: 'Crimson Pro', serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #1a1a1a;
+}
+
+.stat-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: #999;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 
 /* Main */
 
@@ -427,6 +458,7 @@ p.definition {
     font-size: 0.7em;
     vertical-align: super;
     line-height: 0;
+    color: #999;
 }
 
 .intro sup a {
