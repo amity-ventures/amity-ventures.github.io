@@ -189,8 +189,7 @@
         <div class="footer-links">
             <a href="/privacy-policy.html">Privacy Policy</a>
             <a href="https://adviserinfo.sec.gov/firm/summary/290313" target="_blank" rel="noopener">Form ADV</a>
-            <a href="https://login.app.carta.com/credentials/login/" target="_blank" rel="noopener">LP Login: Carta</a>
-            <a href="https://amity.arkpes.com" target="_blank" rel="noopener">LP Login: Standish</a>
+            <a href="#" onclick="document.getElementById('lp-login-modal').classList.add('active');return false;">LP Login</a>
             <a href="/reserve.html">Amity Reserve</a>
         </div>
         <div class="footer-disclosures">
@@ -199,5 +198,30 @@
             <p>This website does not constitute an offer to sell or a solicitation of an offer to buy any securities.</p>
         </div>
     </footer>
+
+    <!-- LP Login Modal -->
+    <div id="lp-login-modal" class="lp-modal-overlay" onclick="if(event.target===this)this.classList.remove('active')">
+        <div class="lp-modal">
+            <button class="lp-modal-close" onclick="document.getElementById('lp-login-modal').classList.remove('active')">&times;</button>
+            <h3 class="lp-modal-title">LP Login</h3>
+            <p class="lp-modal-subtitle">Select your fund portal</p>
+            <div class="lp-modal-options">
+                <a href="https://login.app.carta.com/credentials/login/" target="_blank" rel="noopener" class="lp-modal-option">
+                    <span class="lp-modal-option-name">Carta</span>
+                    <span class="lp-modal-option-desc">Opportunity Fund I</span>
+                </a>
+                <a href="https://amity.arkpes.com" target="_blank" rel="noopener" class="lp-modal-option">
+                    <span class="lp-modal-option-name">Standish</span>
+                    <span class="lp-modal-option-desc">All other funds</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') document.getElementById('lp-login-modal').classList.remove('active');
+        });
+    </script>
 </body>
 </html>

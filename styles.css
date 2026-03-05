@@ -358,6 +358,37 @@ nav.nav-scrolled .nav-time-trigger:focus-visible {
     color: #1a1a1a;
 }
 
+/* Intro stats row */
+
+.intro-stats {
+    display: flex;
+    gap: 3rem;
+    margin: 2.5rem 0;
+    padding-top: 1.2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.intro-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.stat-value {
+    font-family: 'Crimson Pro', serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #1a1a1a;
+}
+
+.stat-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: #999;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 
 /* Main */
 
@@ -427,6 +458,7 @@ p.definition {
     font-size: 0.7em;
     vertical-align: super;
     line-height: 0;
+    color: #999;
 }
 
 .intro sup a {
@@ -992,6 +1024,103 @@ footer {
 
 .footer-links a:hover {
     color: #ccc;
+}
+
+/* LP Login Modal */
+.lp-modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+
+.lp-modal-overlay.active {
+    display: flex;
+}
+
+.lp-modal {
+    background: #111;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 2.5rem;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+    text-align: center;
+}
+
+.lp-modal-close {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    line-height: 1;
+}
+
+.lp-modal-close:hover {
+    color: #ccc;
+}
+
+.lp-modal-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #e0e0e0;
+    margin: 0 0 0.3rem;
+    letter-spacing: 0.05em;
+}
+
+.lp-modal-subtitle {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    color: #666;
+    margin: 0 0 1.5rem;
+    letter-spacing: 0.05em;
+}
+
+.lp-modal-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.lp-modal-option {
+    display: block;
+    padding: 1rem 1.25rem;
+    border: 1px solid #333;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.lp-modal-option:hover {
+    border-color: #555;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.lp-modal-option-name {
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    color: #e0e0e0;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.2rem;
+}
+
+.lp-modal-option-desc {
+    display: block;
+    font-size: 0.65rem;
+    color: #666;
+    letter-spacing: 0.03em;
 }
 
 .footer-disclosures {
