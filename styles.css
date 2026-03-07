@@ -176,6 +176,10 @@ body[data-hero-time="night"] .nav-time-icon-moon {
     display: block;
 }
 
+nav.nav-scrolled .nav-time-picker {
+    display: none;
+}
+
 nav.nav-scrolled .nav-time-trigger {
     color: #666;
 }
@@ -619,6 +623,31 @@ p.definition {
     letter-spacing: 0.01em;
 }
 
+.company-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.25em 0.6em;
+    border-radius: 3px;
+    vertical-align: middle;
+    position: relative;
+    top: -0.15em;
+    margin-left: 0.5rem;
+}
+
+.badge-acq {
+    color: #6e6352;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid #c4bfb5;
+}
+
+.badge-ipo {
+    color: #52626e;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid #b5bfc4;
+}
+
 .company-desc {
     font-size: 0.95rem;
     color: #777;
@@ -973,6 +1002,7 @@ p.definition {
 [data-reveal="stagger-1"] { transition-delay: 0.1s; }
 [data-reveal="stagger-2"] { transition-delay: 0.25s; }
 [data-reveal="stagger-3"] { transition-delay: 0.4s; }
+[data-reveal="stagger-4"] { transition-delay: 0.55s; }
 
 /* Footer */
 
@@ -1314,7 +1344,8 @@ body.agent-mode .hero-agent-content {
 
 /* Nav in agent mode */
 
-body.agent-mode .nav-right {
+body.agent-mode .nav-right,
+body.agent-mode .nav-time-picker {
     display: none;
 }
 
@@ -1436,8 +1467,6 @@ body.agent-mode .agent-brief {
 .agent-portfolio-list {
     display: flex;
     flex-direction: column;
-    max-height: 320px;
-    overflow-y: auto;
 }
 
 .agent-portfolio-row {

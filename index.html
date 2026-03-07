@@ -100,8 +100,8 @@
 
     <main>
         <section class="intro" data-reveal>
-            <p>We lead rounds at the earliest stages, get in the trenches, and are deliberately concentrated — investing in only 3-5 companies per year.<sup id="ref1"><a href="#fn1">1</a></sup></p>
-            <p>And it works: 20% of our early-stage portfolio companies have reached $1B+ in valuation,<sup id="ref2"><a href="#fn2">2</a></sup> and our founders retain more ownership than the industry average.<sup id="ref3"><a href="#fn3">3</a></sup></p>
+            <p>We lead rounds at the earliest stages, get in the trenches, and are deliberately concentrated — investing in only 3-5 companies per year.</p>
+            <p>And it works: 20% of our early-stage portfolio companies have reached $1B+ in valuation,<sup id="ref1"><a href="#fn1">1</a></sup> and our founders retain more ownership than the industry average.<sup id="ref2"><a href="#fn2">2</a></sup></p>
             <div class="intro-stats">
                 <div class="intro-stat">
                     <span class="stat-value">$1.8B</span>
@@ -119,9 +119,8 @@
             <p>But at the end of the day, what drives us? It's in the name:</p>
             <p class="definition"><span class="word">am·i·ty</span> <span class="pronunciation">/ˈamədē/</span> <span class="pos">n.</span> <span class="meaning">quality relationships</span></p>
             <div class="footnotes">
-                <p id="fn1"><sup><a href="#ref1">1</a></sup> Citation stuff with some sources and numbers.</p>
-                <p id="fn2"><sup><a href="#ref2">2</a></sup> Since founding Amity in 2017 through the end of 2025, seven out of thirty-five early stage investments have reached $1B+ valuations.</p>
-                <p id="fn3"><sup><a href="#ref3">3</a></sup> Citation stuff with some sources and numbers.</p>
+                <p id="fn2"><sup><a href="#ref2">1</a></sup> Since founding Amity in 2017 through the end of 2025, seven out of thirty-five early stage investments have reached $1B+ valuations.</p>
+                <p id="fn3"><sup><a href="#ref3">2</a></sup> Citation stuff with some sources and numbers.</p>
 
             </div>
         </section>
@@ -310,7 +309,7 @@
                     </a>
                     <a href="https://www.evisort.com/" target="_blank" rel="noopener noreferrer" class="company">
                         <div class="company-info">
-                            <span class="company-name">Evisort</span>
+                            <span class="company-name">Evisort <span class="company-badge badge-acq">Acq. Workday</span></span>
                             <span class="company-founders">Jerry Ting, Amine Anoun, Jake Sussman</span>
                         </div>
                         <span class="company-desc">AI-powered contract management platform</span>
@@ -710,6 +709,13 @@
             document.body.classList.add('agent-mode');
         }
 
+        document.querySelector('.wordmark').addEventListener('click', function(e) {
+            if (document.body.classList.contains('agent-mode')) {
+                e.preventDefault();
+                setMode('human');
+            }
+        });
+
         (function initHeroTimePresets() {
             const presetOrder = ['auto', 'dawn', 'day', 'dusk', 'night'];
             const presetLabels = {
@@ -855,7 +861,8 @@
                 bookRecommendation: 'A Message to Garcia by Elbert Hubbard',
                 firstJob: 'Caddie',
                 hiddenTalent: 'Spearfishing',
-                linkedin: 'https://www.linkedin.com/in/cjreim/'
+                linkedin: 'https://www.linkedin.com/in/cjreim/',
+                twitter: 'https://x.com/CJ_Reim'
             },
             'patrick': {
                 name: 'Patrick Yang',
@@ -889,7 +896,9 @@
                 favoriteMeal: 'Ribeye',
                 interests: 'Tinkering of all types',
                 bookRecommendation: 'Seeing that Frees by Rob Burbea',
-                linkedin: 'https://www.linkedin.com/in/andybromberg/'
+                linkedin: 'https://www.linkedin.com/in/andybromberg/',
+                twitter: 'https://x.com/andy_bromberg',
+                website: 'https://andybromberg.com'
             },
             'andy-ravreby': {
                 name: 'Andy Ravreby',
@@ -995,7 +1004,8 @@
                         ${member.origin ? `<span class="modal-origin">${member.origin}</span>` : ''}
                         <div class="modal-links">
                             ${member.linkedin ? `<a href="${member.linkedin}" target="_blank" rel="noopener" class="modal-linkedin">LinkedIn</a>` : ''}
-                            ${member.twitter ? `<a href="${member.twitter}" target="_blank" rel="noopener" class="modal-linkedin">Twitter</a>` : ''}
+                            ${member.twitter ? `<a href="${member.twitter}" target="_blank" rel="noopener" class="modal-linkedin">X</a>` : ''}
+                            ${member.website ? `<a href="${member.website}" target="_blank" rel="noopener" class="modal-linkedin">Website</a>` : ''}
                         </div>
                     </div>
                 </div>
