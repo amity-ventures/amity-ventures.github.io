@@ -71,7 +71,7 @@ We're not passive capital. When we invest:
 | Edge Delta | Stream processing for observability and anomaly detection |
 | Evisort | AI-powered contract management |
 | Fount | Health and performance coaching using data analytics |
-| MaintainX | Work order digitization for frontline workers |
+| MaintainX! | Work order digitization for frontline workers |
 | Prompt Health | Enterprise software for physical therapy practices |
 | Qumulo | File data platform for multi-cloud storage |
 | Snyk | Developer security platform |
