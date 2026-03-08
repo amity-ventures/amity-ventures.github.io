@@ -68,7 +68,7 @@ We're not passive capital. When we invest:
 | Causely | Causal AI for cloud application management |
 | Column | Collaborative public notice platform for publishers and governments |
 | ControlRooms.ai | AI-powered monitoring for critical infrastructure |
-| Copilot | AI-powered personal finance management |
+| Copilot | AI-native sales tech stack automation |
 | Ditto | Real-time data syncing for mobile and IoT applications |
 | Edge Delta | Stream processing for observability and anomaly detection |
 | Evisort | AI-powered contract management |

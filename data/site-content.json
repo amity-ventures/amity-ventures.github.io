@@ -583,20 +583,28 @@
     "virsec": {
       "name": "Virsec",
       "url": "https://virsec.com/",
-      "founders": [],
+      "founders": [
+        "Atiq Raza",
+        "Dave Furneaux",
+        "Ray DeMeo",
+        "Satya Gupta"
+      ],
       "description": "Runtime application security for critical infrastructure",
-      "image": "assets/images/virsec.jpg",
+      "image": "assets/images/virsec.avif",
       "alt": "Virsec",
       "agentDescription": "Runtime application security for critical infrastructure"
     },
     "copilot": {
       "name": "Copilot",
-      "url": "https://copilot.money/",
-      "founders": [],
-      "description": "AI-powered personal finance management",
+      "url": "https://www.copilotup.com/",
+      "founders": [
+        "Rohan Sampath",
+        "Andy Zhou"
+      ],
+      "description": "AI-native platform automating and optimizing the modern sales tech stack",
       "image": "assets/images/copilot.jpg",
       "alt": "Copilot",
-      "agentDescription": "AI-powered personal finance management"
+      "agentDescription": "AI-native sales tech stack automation"
     },
     "mayfair": {
       "name": "Mayfair",
@@ -676,7 +684,10 @@
     "truepill": {
       "name": "Truepill",
       "url": "https://truepill.com/",
-      "founders": [],
+      "founders": [
+        "Sid Viswanathan",
+        "Umar Afridi"
+      ],
       "description": "Digital pharmacy and medication delivery platform",
       "image": "assets/images/truepill.jpg",
       "alt": "Truepill",
@@ -689,7 +700,10 @@
     "moquality": {
       "name": "MoQuality",
       "url": "",
-      "founders": [],
+      "founders": [
+        "Shauvik Roy Choudhary",
+        "Pushkar Kolhe"
+      ],
       "description": "AI-driven mobile app testing automation",
       "image": "assets/images/moquality.jpg",
       "alt": "MoQuality",
@@ -719,7 +733,12 @@
     "vowel": {
       "name": "Vowel",
       "url": "",
-      "founders": [],
+      "founders": [
+        "Andrew Berman",
+        "Ben Kempe",
+        "Matthew Slotkin",
+        "Paul Fisher"
+      ],
       "description": "AI-powered video conferencing and meeting management",
       "image": "assets/images/vowel.jpg",
       "alt": "Vowel",
