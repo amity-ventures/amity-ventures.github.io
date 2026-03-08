@@ -347,7 +347,11 @@
       ],
       "description": "Healthcare workflow automation and remote patient monitoring",
       "image": "assets/images/athelas.webp",
-      "alt": "Athelas"
+      "alt": "Athelas",
+      "badge": {
+        "text": "Acq. Commure",
+        "className": "badge-acq"
+      }
     },
     "captivateiq": {
       "name": "CaptivateIQ",
