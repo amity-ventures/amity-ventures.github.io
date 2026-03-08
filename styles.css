@@ -648,6 +648,13 @@ p.definition {
     border: 1px solid #b5bfc4;
 }
 
+.badge-inactive {
+    color: #aaa;
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid #ddd;
+    font-weight: 300;
+}
+
 .company-desc {
     font-size: 0.95rem;
     color: #777;

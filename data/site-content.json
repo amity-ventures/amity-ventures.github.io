@@ -754,7 +754,11 @@
       "description": "AI-powered video conferencing and meeting management",
       "image": "assets/images/vowel.webp",
       "alt": "Vowel",
-      "agentDescription": "AI-powered video conferencing and meeting management"
+      "agentDescription": "AI-powered video conferencing and meeting management",
+      "badge": {
+        "text": "Inactive",
+        "className": "badge-inactive"
+      }
     },
     "prive": {
       "name": "Prive",
@@ -776,7 +780,7 @@
       "name": "Good Counsel",
       "url": "https://goodcounsel.com/",
       "founders": [
-        "Daniel Brooks"
+        "Rudolph Cline-Thomas"
       ],
       "description": "Inclusive menswear brand for men of all sizes",
       "image": "assets/images/goodcounsel.jpg",
@@ -793,7 +797,11 @@
       "description": "Real-time sports fan chat and prediction platform",
       "image": "assets/images/flick.jpg",
       "alt": "Flick",
-      "agentDescription": "Real-time sports fan chat and predictions"
+      "agentDescription": "Real-time sports fan chat and predictions",
+      "badge": {
+        "text": "Inactive",
+        "className": "badge-inactive"
+      }
     },
     "depot-global": {
       "name": "Depot Global",
@@ -805,7 +813,11 @@
       "description": "Autonomous vehicle adoption software and services",
       "image": "assets/images/depot-global.jpg",
       "alt": "Depot Global",
-      "agentDescription": "Autonomous vehicle adoption software"
+      "agentDescription": "Autonomous vehicle adoption software",
+      "badge": {
+        "text": "Inactive",
+        "className": "badge-inactive"
+      }
     }
   }
 }
