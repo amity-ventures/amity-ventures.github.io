@@ -62,6 +62,7 @@ We're not passive capital. When we invest:
 | Athelas | Healthcare workflow automation and remote patient monitoring |
 | Avochato | Mobile messaging for customer relationship management |
 | Borderless Labs | Cross-border payments infrastructure |
+| Burrow | Direct-to-consumer modular furniture |
 | CaptivateIQ | Sales commissions management platform |
 | Carta | Global ownership management for equity and cap tables |
 | Causely | Causal AI for cloud application management |
@@ -69,9 +70,12 @@ We're not passive capital. When we invest:
 | ControlRooms.ai | AI-powered monitoring for critical infrastructure |
 | Ditto | Real-time data syncing for mobile and IoT applications |
 | Edge Delta | Stream processing for observability and anomaly detection |
+| EquipmentShare | Construction equipment rental and fleet management technology |
 | Evisort | AI-powered contract management |
 | Fount | Health and performance coaching using data analytics |
+| Honey | Browser extension for automatic coupon discovery and rewards |
 | MaintainX | Work order digitization for frontline workers |
+| Ouster | Digital lidar sensors for industrial and autonomous applications |
 | Prompt Health | Enterprise software for physical therapy practices |
 | Qumulo | File data platform for multi-cloud storage |
 | Snyk | Developer security platform |
@@ -81,6 +85,7 @@ We're not passive capital. When we invest:
 | Talkdesk | Cloud contact center for customer experience |
 | Tilly | Software for behavioral healthcare practitioners |
 | Usage AI | Cloud FinOps for cost optimization |
+| xAI | AI research and development company building Grok |
 
 <!-- GENERATED: skill-portfolio-table:end -->
 ## Contact

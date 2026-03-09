@@ -1,5 +1,5 @@
 {
-  "homeFeaturedCompanyCount": 4,
+  "homeFeaturedCompanyCount": 8,
   "teamOrder": {
     "home": [
       "andy",
@@ -190,24 +190,29 @@
       "maintainx",
       "ditto",
       "talkdesk",
+      "xai",
       "arketa",
-      "carta",
-      "snyk",
-      "athelas",
       "captivateiq",
+      "equipmentshare",
       "sully-ai",
-      "socure",
-      "qumulo",
-      "edge-delta",
       "accelevents",
+      "athelas",
       "avochato",
       "borderless-labs",
+      "burrow",
+      "carta",
       "causely",
       "column",
       "controlrooms-ai",
+      "edge-delta",
       "evisort",
       "fount",
+      "honey",
+      "ouster",
       "prompt-health",
+      "qumulo",
+      "snyk",
+      "socure",
       "stationwise",
       "tilly",
       "usage-ai"
@@ -218,6 +223,7 @@
       "athelas",
       "avochato",
       "borderless-labs",
+      "burrow",
       "captivateiq",
       "carta",
       "causely",
@@ -225,9 +231,12 @@
       "controlrooms-ai",
       "ditto",
       "edge-delta",
+      "equipmentshare",
       "evisort",
       "fount",
+      "honey",
       "maintainx",
+      "ouster",
       "prompt-health",
       "qumulo",
       "snyk",
@@ -236,7 +245,8 @@
       "sully-ai",
       "talkdesk",
       "tilly",
-      "usage-ai"
+      "usage-ai",
+      "xai"
     ]
   },
   "portfolioCompanies": {
@@ -317,7 +327,11 @@
       ],
       "description": "Healthcare workflow automation and remote patient monitoring",
       "image": "assets/images/athelas.webp",
-      "alt": "Athelas"
+      "alt": "Athelas",
+      "badge": {
+        "text": "Merg. Commure",
+        "className": "badge-merg"
+      }
     },
     "captivateiq": {
       "name": "CaptivateIQ",
@@ -514,6 +528,80 @@
       "image": "assets/images/usage.webp",
       "alt": "Usage AI",
       "agentDescription": "Cloud FinOps for cost optimization"
+    },
+    "xai": {
+      "name": "xAI",
+      "url": "https://x.ai/",
+      "founders": [
+        "Elon Musk"
+      ],
+      "description": "AI research and development company building Grok",
+      "image": "",
+      "alt": "xAI",
+      "badge": {
+        "text": "Acq. SpaceX",
+        "className": "badge-acq"
+      }
+    },
+    "equipmentshare": {
+      "name": "EquipmentShare",
+      "url": "https://www.equipmentshare.com/",
+      "founders": [
+        "Jabbok Schlacks",
+        "Willy Schlacks"
+      ],
+      "description": "Construction equipment rental and fleet management technology",
+      "image": "",
+      "alt": "EquipmentShare",
+      "badge": {
+        "text": "IPO: EQPT",
+        "className": "badge-ipo"
+      }
+    },
+    "honey": {
+      "name": "Honey",
+      "url": "https://www.joinhoney.com/",
+      "founders": [
+        "Ryan Hudson",
+        "George Ruan"
+      ],
+      "description": "Browser extension for automatic coupon discovery and rewards",
+      "image": "",
+      "alt": "Honey",
+      "badge": {
+        "text": "Acq. PayPal",
+        "className": "badge-acq"
+      }
+    },
+    "ouster": {
+      "name": "Ouster",
+      "url": "https://ouster.com/",
+      "founders": [
+        "Angus Pacala",
+        "Mark Frichtl"
+      ],
+      "description": "Digital lidar sensors for industrial and autonomous applications",
+      "image": "",
+      "alt": "Ouster",
+      "badge": {
+        "text": "IPO: OUST",
+        "className": "badge-ipo"
+      }
+    },
+    "burrow": {
+      "name": "Burrow",
+      "url": "https://burrow.com/",
+      "founders": [
+        "Stephen Kuhl",
+        "Kabeer Chopra"
+      ],
+      "description": "Direct-to-consumer modular furniture",
+      "image": "",
+      "alt": "Burrow",
+      "badge": {
+        "text": "Acq. Havenly",
+        "className": "badge-acq"
+      }
     }
   }
 }

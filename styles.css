@@ -539,20 +539,25 @@ p.definition {
 .company-list {
     border-top: 1px solid #d4d0c8;
     overflow: visible;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
 }
 
 .company {
     position: relative;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
     padding: 1.3rem 0;
     border-bottom: 1px solid #d4d0c8;
-    transition: padding-left 0.2s ease;
+    transition: padding-left 0.2s ease, margin-right 0.2s ease;
 }
 
 .company:hover {
     padding-left: 0.5rem;
+    margin-right: -0.5rem;
     z-index: 20;
 }
 
@@ -648,10 +653,16 @@ p.definition {
     border: 1px solid #b5bfc4;
 }
 
+.badge-merg {
+    color: #526e5c;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid #b5c4b9;
+}
+
 .company-desc {
     font-size: 0.95rem;
     color: #777;
-    text-align: right;
+    text-align: left;
 }
 
 .company-list-more {
@@ -659,7 +670,7 @@ p.definition {
 }
 
 .company-list-more.visible {
-    display: block;
+    display: contents;
 }
 
 .show-more {
@@ -1617,14 +1628,8 @@ body.agent-mode .agent-brief {
         font-size: 2.8rem;
     }
 
-    .company {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.4rem;
-    }
-
-    .company-desc {
-        text-align: left;
+    .company-list {
+        grid-template-columns: 1fr;
     }
 
     .company-founders {
