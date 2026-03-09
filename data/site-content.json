@@ -68,7 +68,7 @@
       "interests": "Tennis, apres-ski, Golden State Warriors",
       "community": "Board member of Advancing Women in Tech",
       "bookRecommendation": "Insanely Simple by Ken Segall",
-      "linkedin": "https://www.linkedin.com/in/patrick-z-yang/"
+      "linkedin": "https://www.linkedin.com/in/patrick-yang/"
     },
     "andy": {
       "name": "Andy Bromberg",
@@ -91,7 +91,7 @@
       "favoriteMeal": "Ribeye",
       "interests": "Tinkering of all types",
       "bookRecommendation": "Seeing that Frees by Rob Burbea",
-      "linkedin": "https://www.linkedin.com/in/andybromberg/",
+      "linkedin": "https://www.linkedin.com/in/andy-bromberg/",
       "twitter": "https://x.com/andy_bromberg",
       "website": "https://andybromberg.com"
     },
@@ -111,7 +111,7 @@
     },
     "kieran": {
       "name": "Kieran Dennis",
-      "title": "Investor",
+      "title": "Software Engineer",
       "origin": "San Juan, PR",
       "photo": "assets/images/dennis.jpg",
       "bio": "After joining Amity Ventures as a Summer Intern, Kieran transitioned to a full-time role with the firm.\n\nIn addition to serving on the Amity investment team, Kieran operates as an Initial Contributor at Core, an Amity-backed initiative focused on Bitcoin scaling and application development, where he works across strategy and operations.",
@@ -240,7 +240,6 @@
       "borderless-labs",
       "burrow",
       "captivateiq",
-      "carta",
       "causely",
       "column",
       "controlrooms-ai",
@@ -266,7 +265,6 @@
       "qumulo",
       "snyk",
       "socure",
-      "stationwise",
       "sully-ai",
       "talkdesk",
       "tilly",
@@ -282,7 +280,7 @@
       "name": "MaintainX",
       "url": "https://www.getmaintainx.com/",
       "founders": [
-        "Chris Turlica",
+        "Chris Turlicca",
         "Hugo Dozois-Caouette"
       ],
       "description": "Work order digitization platform for frontline workers",
@@ -292,7 +290,7 @@
     },
     "ditto": {
       "name": "Ditto",
-      "url": "https://www.ditto.live/",
+      "url": "https://www.ditto.life/",
       "founders": [
         "Adam Fish"
       ],
@@ -315,7 +313,7 @@
       "name": "Arketa",
       "url": "https://www.arketa.com/",
       "founders": [
-        "Rachel Lea Fishman",
+        "Rachel Lee Fishman",
         "Josh Archer"
       ],
       "description": "SaaS platform for fitness professionals to host classes and monetize content",
@@ -337,7 +335,7 @@
     },
     "snyk": {
       "name": "Snyk",
-      "url": "https://snyk.io/",
+      "url": "https://snyk.oi/",
       "founders": [
         "Peter McKay"
       ],
@@ -350,7 +348,7 @@
       "name": "Athelas",
       "url": "https://www.athelas.com/",
       "founders": [
-        "Tanay Tandon",
+        "Taney Tandon",
         "Deepika Bodapati"
       ],
       "description": "Healthcare workflow automation and remote patient monitoring",
@@ -455,8 +453,8 @@
       "name": "Causely",
       "url": "https://www.causely.ai/",
       "founders": [
-        "Shmuel Kliger",
-        "Yotam Yemini"
+        "Leo Hentschker",
+        "Jake Seaton"
       ],
       "description": "Causal AI for cloud application management and troubleshooting",
       "image": "assets/images/causely.png",
@@ -467,8 +465,8 @@
       "name": "Column",
       "url": "https://www.column.us/",
       "founders": [
-        "Leo Hentschker",
-        "Jake Seaton"
+        "Shmuel Kliger",
+        "Yotam Yemini"
       ],
       "description": "Collaborative public notice platform for publishers and governments",
       "image": "assets/images/column.jpg",
