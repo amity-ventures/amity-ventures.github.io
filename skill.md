@@ -58,6 +58,7 @@ We're not passive capital. When we invest:
 | Company | Description |
 |---------|-------------|
 | Accelevents | End-to-end platform for in-person, virtual, and hybrid events |
+| Airbnb | Global marketplace for travel and experiences |
 | Arketa | SaaS platform for fitness professionals |
 | Athelas | Healthcare workflow automation and remote patient monitoring |
 | Avochato | Mobile messaging for customer relationship management |
@@ -68,15 +69,26 @@ We're not passive capital. When we invest:
 | Causely | Causal AI for cloud application management |
 | Column | Collaborative public notice platform for publishers and governments |
 | ControlRooms.ai | AI-powered monitoring for critical infrastructure |
+| Copilot | AI-native sales tech stack automation |
 | Core | Bitcoin-powered blockchain for decentralized applications |
+| Depot Global | Autonomous vehicle adoption software |
 | Ditto | Real-time data syncing for mobile and IoT applications |
 | Edge Delta | Stream processing for observability and anomaly detection |
 | EquipmentShare | Construction equipment rental and fleet management technology |
 | Evisort | AI-powered contract management |
+| Flick | Real-time sports fan chat and predictions |
 | Fount | Health and performance coaching using data analytics |
-| Honey | Browser extension for automatic coupon discovery and rewards |
+| Good Counsel | Inclusive menswear brand for all sizes |
+| Honey | Browser extension for automatic coupon discovery |
+| Isara | Frontier AI lab for multi-agent coordination |
+| Lucenia | Next-gen search and retrieval for contextual AI |
 | MaintainX | Work order digitization for frontline workers |
-| Ouster | Digital lidar sensors for industrial and autonomous applications |
+| Mayfair | Automated cash management for higher yield |
+| MoQuality | AI-driven mobile app testing automation |
+| OurFirm | AI-powered litigation drafting platform |
+| Ouster | Digital lidar for autonomous systems and robotics |
+| Playco | Instant-play gaming platform for social games |
+| Prive | Subscription management for Shopify merchants |
 | Prompt Health | Enterprise software for physical therapy practices |
 | Qumulo | File data platform for multi-cloud storage |
 | Snyk | Developer security platform |
@@ -85,8 +97,12 @@ We're not passive capital. When we invest:
 | Sully.ai | AI assistant for healthcare administrative tasks |
 | Talkdesk | Cloud contact center for customer experience |
 | Tilly | Software for behavioral healthcare practitioners |
+| Truepill | Digital pharmacy and medication delivery |
 | Usage AI | Cloud FinOps for cost optimization |
-| xAI | AI research and development company building Grok |
+| Virsec | Runtime application security for critical infrastructure |
+| Vowel | AI-powered video conferencing and meeting management |
+| xAI | Frontier AI lab building Grok |
+| xFigura | AI-native design canvas for architects |
 
 <!-- GENERATED: skill-portfolio-table:end -->
 ## Contact

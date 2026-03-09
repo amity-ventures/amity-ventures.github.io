@@ -196,6 +196,7 @@
       "equipmentshare",
       "sully-ai",
       "accelevents",
+      "airbnb",
       "athelas",
       "avochato",
       "borderless-labs",
@@ -204,22 +205,38 @@
       "causely",
       "column",
       "controlrooms-ai",
+      "copilot",
       "core",
+      "depot-global",
       "edge-delta",
       "evisort",
+      "flick",
       "fount",
+      "goodcounsel",
       "honey",
+      "isara",
+      "lucenia",
+      "mayfair",
+      "moquality",
+      "ourfirm",
       "ouster",
+      "playco",
+      "prive",
       "prompt-health",
       "qumulo",
       "snyk",
       "socure",
       "stationwise",
       "tilly",
-      "usage-ai"
+      "truepill",
+      "usage-ai",
+      "virsec",
+      "vowel",
+      "xfigura"
     ],
     "agent": [
       "accelevents",
+      "airbnb",
       "arketa",
       "athelas",
       "avochato",
@@ -230,15 +247,26 @@
       "causely",
       "column",
       "controlrooms-ai",
+      "copilot",
       "core",
+      "depot-global",
       "ditto",
       "edge-delta",
       "equipmentshare",
       "evisort",
+      "flick",
       "fount",
+      "goodcounsel",
       "honey",
+      "isara",
+      "lucenia",
       "maintainx",
+      "mayfair",
+      "moquality",
+      "ourfirm",
       "ouster",
+      "playco",
+      "prive",
       "prompt-health",
       "qumulo",
       "snyk",
@@ -247,8 +275,12 @@
       "sully-ai",
       "talkdesk",
       "tilly",
+      "truepill",
       "usage-ai",
-      "xai"
+      "virsec",
+      "vowel",
+      "xai",
+      "xfigura"
     ]
   },
   "portfolioCompanies": {
@@ -531,20 +563,6 @@
       "alt": "Usage AI",
       "agentDescription": "Cloud FinOps for cost optimization"
     },
-    "xai": {
-      "name": "xAI",
-      "url": "https://x.ai/",
-      "founders": [
-        "Elon Musk"
-      ],
-      "description": "AI research and development company building Grok",
-      "image": "assets/images/xai.jpg",
-      "alt": "xAI",
-      "badge": {
-        "text": "Acq. SpaceX",
-        "className": "badge-acq"
-      }
-    },
     "equipmentshare": {
       "name": "EquipmentShare",
       "url": "https://www.equipmentshare.com/",
@@ -560,20 +578,28 @@
         "className": "badge-ipo"
       }
     },
-    "honey": {
-      "name": "Honey",
-      "url": "https://www.joinhoney.com/",
+    "lucenia": {
+      "name": "Lucenia",
+      "url": "https://lucenia.io/",
       "founders": [
-        "Ryan Hudson",
-        "George Ruan"
+        "Nick Knize"
       ],
-      "description": "Browser extension for automatic coupon discovery and rewards",
-      "image": "assets/images/honey.jpg",
-      "alt": "Honey",
-      "badge": {
-        "text": "Acq. PayPal",
-        "className": "badge-acq"
-      }
+      "description": "Next-generation search and retrieval for contextual AI",
+      "image": "assets/images/lucenia.jpg",
+      "alt": "Lucenia",
+      "agentDescription": "Next-gen search and retrieval for contextual AI"
+    },
+    "isara": {
+      "name": "Isara",
+      "url": "https://www.isara.io/",
+      "founders": [
+        "Henry Gasztowtt",
+        "Eddie Zhang"
+      ],
+      "description": "Frontier AI lab solving multi-agent coordination",
+      "image": "assets/images/isara.jpg",
+      "alt": "Isara",
+      "agentDescription": "Frontier AI lab for multi-agent coordination"
     },
     "ouster": {
       "name": "Ouster",
@@ -582,9 +608,10 @@
         "Angus Pacala",
         "Mark Frichtl"
       ],
-      "description": "Digital lidar sensors for industrial and autonomous applications",
+      "description": "Digital lidar sensors for autonomous systems and robotics",
       "image": "assets/images/ouster.jpg",
       "alt": "Ouster",
+      "agentDescription": "Digital lidar for autonomous systems and robotics",
       "badge": {
         "text": "NASDAQ: OUST",
         "className": "badge-ipo"
@@ -616,6 +643,225 @@
         "text": "Acq. Havenly",
         "className": "badge-acq"
       }
+    },
+    "virsec": {
+      "name": "Virsec",
+      "url": "https://virsec.com/",
+      "founders": [
+        "Atiq Raza",
+        "Dave Furneaux",
+        "Ray DeMeo",
+        "Satya Gupta"
+      ],
+      "description": "Runtime application security for critical infrastructure",
+      "image": "assets/images/virsec.avif",
+      "alt": "Virsec",
+      "agentDescription": "Runtime application security for critical infrastructure"
+    },
+    "copilot": {
+      "name": "Copilot",
+      "url": "https://www.copilotup.com/",
+      "founders": [
+        "Rohan Sampath",
+        "Andy Zhou"
+      ],
+      "description": "AI-native platform automating and optimizing the modern sales tech stack",
+      "image": "assets/images/copilot.jpg",
+      "alt": "Copilot",
+      "agentDescription": "AI-native sales tech stack automation"
+    },
+    "mayfair": {
+      "name": "Mayfair",
+      "url": "https://getmayfair.com/",
+      "founders": [
+        "Kent Mori",
+        "Daniel Chan",
+        "Kevin Chan",
+        "Munish Chopra"
+      ],
+      "description": "Automated cash management for higher yield on idle business funds",
+      "image": "assets/images/mayfair.jpg",
+      "alt": "Mayfair",
+      "agentDescription": "Automated cash management for higher yield"
+    },
+    "playco": {
+      "name": "Playco",
+      "url": "https://play.co/",
+      "founders": [
+        "Michael Carter",
+        "Justin Waldron"
+      ],
+      "description": "Instant-play gaming platform for cross-platform social games",
+      "image": "assets/images/playco.webp",
+      "alt": "Playco",
+      "agentDescription": "Instant-play gaming platform for social games"
+    },
+    "xai": {
+      "name": "xAI",
+      "url": "https://x.ai/",
+      "founders": [
+        "Elon Musk"
+      ],
+      "description": "Frontier AI lab building Grok to accelerate scientific discovery",
+      "image": "assets/images/xai.jpg",
+      "alt": "xAI",
+      "agentDescription": "Frontier AI lab building Grok",
+      "badge": {
+        "text": "Acq. SpaceX",
+        "className": "badge-acq"
+      }
+    },
+    "xfigura": {
+      "name": "xFigura",
+      "url": "https://xfigura.ai/",
+      "founders": [
+        "George Guida"
+      ],
+      "description": "AI-native design canvas for architects",
+      "image": "assets/images/xfigura.jpg",
+      "alt": "xFigura",
+      "agentDescription": "AI-native design canvas for architects"
+    },
+    "ourfirm": {
+      "name": "OurFirm",
+      "url": "https://ourfirm.ai/",
+      "founders": [
+        "Andrew Mancilla"
+      ],
+      "description": "AI-powered litigation drafting platform",
+      "image": "assets/images/ourfirm.webp",
+      "alt": "OurFirm",
+      "agentDescription": "AI-powered litigation drafting platform"
+    },
+    "honey": {
+      "name": "Honey",
+      "url": "https://www.joinhoney.com/",
+      "founders": [
+        "Ryan Hudson",
+        "George Ruan"
+      ],
+      "description": "Browser extension for automatic coupon and deal discovery",
+      "image": "assets/images/honey.jpg",
+      "alt": "Honey",
+      "agentDescription": "Browser extension for automatic coupon discovery",
+      "badge": {
+        "text": "Acq. PayPal",
+        "className": "badge-acq"
+      }
+    },
+    "truepill": {
+      "name": "Truepill",
+      "url": "https://truepill.com/",
+      "founders": [
+        "Sid Viswanathan",
+        "Umar Afridi"
+      ],
+      "description": "Digital pharmacy and medication delivery platform",
+      "image": "assets/images/truepill.jpg",
+      "alt": "Truepill",
+      "agentDescription": "Digital pharmacy and medication delivery",
+      "badge": {
+        "text": "Acq. LetsGetChecked",
+        "className": "badge-acq"
+      }
+    },
+    "moquality": {
+      "name": "MoQuality",
+      "url": "",
+      "founders": [
+        "Shauvik Roy Choudhary",
+        "Pushkar Kolhe"
+      ],
+      "description": "AI-driven mobile app testing automation",
+      "image": "assets/images/moquality.jpg",
+      "alt": "MoQuality",
+      "agentDescription": "AI-driven mobile app testing automation",
+      "badge": {
+        "text": "Acq. Snap",
+        "className": "badge-acq"
+      }
+    },
+    "airbnb": {
+      "name": "Airbnb",
+      "url": "https://www.airbnb.com/",
+      "founders": [
+        "Brian Chesky",
+        "Joe Gebbia",
+        "Nathan Blecharczyk"
+      ],
+      "description": "Global marketplace for travel and experiences",
+      "image": "assets/images/airbnb.webp",
+      "alt": "Airbnb",
+      "agentDescription": "Global marketplace for travel and experiences",
+      "badge": {
+        "text": "IPO",
+        "className": "badge-ipo"
+      }
+    },
+    "vowel": {
+      "name": "Vowel",
+      "url": "",
+      "founders": [
+        "Andrew Berman",
+        "Ben Kempe",
+        "Matthew Slotkin",
+        "Paul Fisher"
+      ],
+      "description": "AI-powered video conferencing and meeting management",
+      "image": "assets/images/vowel.webp",
+      "alt": "Vowel",
+      "agentDescription": "AI-powered video conferencing and meeting management"
+    },
+    "prive": {
+      "name": "Prive",
+      "url": "https://www.tryprive.com/",
+      "founders": [
+        "Alex Craciun",
+        "Claudia Laurie"
+      ],
+      "description": "Subscription management platform for Shopify merchants",
+      "image": "assets/images/prive.jpg",
+      "alt": "Prive",
+      "agentDescription": "Subscription management for Shopify merchants",
+      "badge": {
+        "text": "Acq. Recurly",
+        "className": "badge-acq"
+      }
+    },
+    "goodcounsel": {
+      "name": "Good Counsel",
+      "url": "https://goodcounsel.com/",
+      "founders": [
+        "Rudolph Cline-Thomas"
+      ],
+      "description": "Inclusive menswear brand for men of all sizes",
+      "image": "assets/images/goodcounsel.jpg",
+      "alt": "Good Counsel",
+      "agentDescription": "Inclusive menswear brand for all sizes"
+    },
+    "flick": {
+      "name": "Flick",
+      "url": "",
+      "founders": [
+        "Nigel Eccles",
+        "Rob Jones"
+      ],
+      "description": "Real-time sports fan chat and prediction platform",
+      "image": "assets/images/flick.jpg",
+      "alt": "Flick",
+      "agentDescription": "Real-time sports fan chat and predictions"
+    },
+    "depot-global": {
+      "name": "Depot Global",
+      "url": "",
+      "founders": [
+        "Brad O'Neill",
+        "Lindsey Haswell"
+      ],
+      "description": "Autonomous vehicle adoption software and services",
+      "image": "assets/images/depot-global.jpg",
+      "alt": "Depot Global",
+      "agentDescription": "Autonomous vehicle adoption software"
     }
   }
 }
