@@ -538,7 +538,7 @@
         "Elon Musk"
       ],
       "description": "AI research and development company building Grok",
-      "image": "",
+      "image": "assets/images/xai.jpg",
       "alt": "xAI",
       "badge": {
         "text": "Acq. SpaceX",
@@ -553,7 +553,7 @@
         "Willy Schlacks"
       ],
       "description": "Construction equipment rental and fleet management technology",
-      "image": "",
+      "image": "assets/images/equipmentshare.jpg",
       "alt": "EquipmentShare",
       "badge": {
         "text": "NASDAQ: EQPT",
@@ -568,7 +568,7 @@
         "George Ruan"
       ],
       "description": "Browser extension for automatic coupon discovery and rewards",
-      "image": "",
+      "image": "assets/images/honey.jpg",
       "alt": "Honey",
       "badge": {
         "text": "Acq. PayPal",
@@ -583,7 +583,7 @@
         "Mark Frichtl"
       ],
       "description": "Digital lidar sensors for industrial and autonomous applications",
-      "image": "",
+      "image": "assets/images/ouster.jpg",
       "alt": "Ouster",
       "badge": {
         "text": "NASDAQ: OUST",
@@ -599,7 +599,7 @@
         "Lindsey Haswell"
       ],
       "description": "Bitcoin-powered blockchain for decentralized applications",
-      "image": "",
+      "image": "assets/images/core.jpg",
       "alt": "Core"
     },
     "burrow": {
@@ -610,7 +610,7 @@
         "Kabeer Chopra"
       ],
       "description": "Direct-to-consumer modular furniture",
-      "image": "",
+      "image": "assets/images/burrow.jpg",
       "alt": "Burrow",
       "badge": {
         "text": "Acq. Havenly",
