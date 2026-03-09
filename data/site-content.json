@@ -556,7 +556,7 @@
       "image": "",
       "alt": "EquipmentShare",
       "badge": {
-        "text": "IPO: EQPT",
+        "text": "NASDAQ: EQPT",
         "className": "badge-ipo"
       }
     },
@@ -586,7 +586,7 @@
       "image": "",
       "alt": "Ouster",
       "badge": {
-        "text": "IPO: OUST",
+        "text": "NASDAQ: OUST",
         "className": "badge-ipo"
       }
     },
