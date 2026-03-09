@@ -204,6 +204,7 @@
       "causely",
       "column",
       "controlrooms-ai",
+      "core",
       "edge-delta",
       "evisort",
       "fount",
@@ -229,6 +230,7 @@
       "causely",
       "column",
       "controlrooms-ai",
+      "core",
       "ditto",
       "edge-delta",
       "equipmentshare",
@@ -587,6 +589,18 @@
         "text": "IPO: OUST",
         "className": "badge-ipo"
       }
+    },
+    "core": {
+      "name": "Core",
+      "url": "https://coredao.org/",
+      "founders": [
+        "Rich Rines",
+        "Brendon Sedo",
+        "Lindsey Haswell"
+      ],
+      "description": "Bitcoin-powered blockchain for decentralized applications",
+      "image": "",
+      "alt": "Core"
     },
     "burrow": {
       "name": "Burrow",

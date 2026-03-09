@@ -68,6 +68,7 @@ We're not passive capital. When we invest:
 | Causely | Causal AI for cloud application management |
 | Column | Collaborative public notice platform for publishers and governments |
 | ControlRooms.ai | AI-powered monitoring for critical infrastructure |
+| Core | Bitcoin-powered blockchain for decentralized applications |
 | Ditto | Real-time data syncing for mobile and IoT applications |
 | Edge Delta | Stream processing for observability and anomaly detection |
 | EquipmentShare | Construction equipment rental and fleet management technology |
