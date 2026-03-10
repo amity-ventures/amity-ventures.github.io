@@ -30,7 +30,7 @@
       "title": "Managing Partner",
       "origin": "San Francisco, CA",
       "photo": "assets/images/reim.jpeg",
-      "bio": "CJ co-founded Amity in 2016 with a view to partner with the world's best technology companies. Guided by his vision for \"permanent software,\" CJ dedicates his time and expertise to helping entrepreneurs develop and scale their businesses. CJ currently serves on the boards of Avochato, Borderless Labs, Ditto, Element Wallet, Fount, MaintainX and Stationwise, in addition to managing the firm's holdings in Core, Carta and Talkdesk among others.\n\nWith over a decade of experience in the digital asset ecosystem, CJ has been at the forefront of blockchain technology. He is an Initial Contributor to Core DAO, an investor in multiple leading crypto exchanges, and was a participant in the original Genesis Block of Ethereum.\n\nPrior to founding Amity, CJ was a Vice President at Highland Capital Partners in Palo Alto where he focused on technology investments across all stages of company growth.",
+      "bio": "CJ co-founded Amity in 2016 with a view to partner with the world's best technology companies. Guided by his vision for \"permanent software,\" CJ dedicates his time and expertise to helping entrepreneurs develop and scale their businesses. CJ currently serves on the boards of Avochato, Borderless Labs, Ditto, Element Wallet, MaintainX and Stationwise, in addition to managing the firm's holdings in Core, Carta and Talkdesk among others.\n\nWith over a decade of experience in the digital asset ecosystem, CJ has been at the forefront of blockchain technology. He is an Initial Contributor to Core DAO, an investor in multiple leading crypto exchanges, and was a participant in the original Genesis Block of Ethereum.\n\nPrior to founding Amity, CJ was a Vice President at Highland Capital Partners in Palo Alto where he focused on technology investments across all stages of company growth.",
       "education": "B.S. in Management with concentrations in Finance and Information Systems, Boston College",
       "boards": [
         "Avochato",
@@ -62,7 +62,6 @@
       "boards": [
         "Arketa",
         "Controlrooms.ai",
-        "Mayfair",
         "Sully.ai",
         "Usage AI"
       ],
@@ -155,7 +154,7 @@
     },
     "jason": {
       "name": "Jason Wong",
-      "title": "Director of Finance and Operations",
+      "title": "Director of Finance & Operations",
       "origin": "San Francisco, CA",
       "photo": "assets/images/wong.jpg",
       "bio": "Jason oversees financial reporting to investors, budgeting, cash management, and partnership agreement compliance at Amity Ventures.",
@@ -219,17 +218,12 @@
       "causely",
       "column",
       "controlrooms-ai",
-      "copilot",
       "core",
-      "depot-global",
       "edge-delta",
       "evisort",
-      "flick",
-      "fount",
       "goodcounsel",
       "honey",
       "lucenia",
-      "mayfair",
       "moquality",
       "ouster",
       "playco",
@@ -242,7 +236,6 @@
       "tilly",
       "truepill",
       "usage-ai",
-      "virsec",
       "vowel"
     ],
     "agent": [
@@ -258,20 +251,15 @@
       "causely",
       "column",
       "controlrooms-ai",
-      "copilot",
       "core",
-      "depot-global",
       "ditto",
       "edge-delta",
       "equipmentshare",
       "evisort",
-      "flick",
-      "fount",
       "goodcounsel",
       "honey",
       "lucenia",
       "maintainx",
-      "mayfair",
       "moquality",
       "ouster",
       "playco",
@@ -286,7 +274,6 @@
       "tilly",
       "truepill",
       "usage-ai",
-      "virsec",
       "vowel",
       "xai"
     ]
@@ -517,16 +504,6 @@
         "className": "badge-acq"
       }
     },
-    "fount": {
-      "name": "Fount",
-      "url": "https://fount.bio/",
-      "founders": [
-        "Andrew Herr"
-      ],
-      "description": "Health and performance coaching using data analytics",
-      "image": "assets/images/fount.jpg",
-      "alt": "Fount"
-    },
     "prompt-health": {
       "name": "Prompt Health",
       "url": "https://www.prompthealth.com/",
@@ -639,46 +616,6 @@
         "className": "badge-acq"
       }
     },
-    "virsec": {
-      "name": "Virsec",
-      "url": "https://virsec.com/",
-      "founders": [
-        "Atiq Raza",
-        "Dave Furneaux",
-        "Ray DeMeo",
-        "Satya Gupta"
-      ],
-      "description": "Runtime application security for critical infrastructure",
-      "image": "assets/images/virsec.avif",
-      "alt": "Virsec",
-      "agentDescription": "Runtime application security for critical infrastructure"
-    },
-    "copilot": {
-      "name": "Copilot",
-      "url": "https://www.copilotup.com/",
-      "founders": [
-        "Rohan Sampath",
-        "Andy Zhou"
-      ],
-      "description": "AI-native platform automating and optimizing the modern sales tech stack",
-      "image": "assets/images/copilot.jpg",
-      "alt": "Copilot",
-      "agentDescription": "AI-native sales tech stack automation"
-    },
-    "mayfair": {
-      "name": "Mayfair",
-      "url": "https://getmayfair.com/",
-      "founders": [
-        "Kent Mori",
-        "Daniel Chan",
-        "Kevin Chan",
-        "Munish Chopra"
-      ],
-      "description": "Automated cash management for higher yield on idle business funds",
-      "image": "assets/images/mayfair.jpg",
-      "alt": "Mayfair",
-      "agentDescription": "Automated cash management for higher yield"
-    },
     "playco": {
       "name": "Playco",
       "url": "https://play.co/",
@@ -767,7 +704,7 @@
       "alt": "Airbnb",
       "agentDescription": "Global marketplace for travel and experiences",
       "badge": {
-        "text": "IPO",
+        "text": "NASDAQ: ABNB",
         "className": "badge-ipo"
       }
     },
@@ -815,30 +752,6 @@
       "image": "assets/images/goodcounsel.jpg",
       "alt": "Good Counsel",
       "agentDescription": "Inclusive menswear brand for all sizes"
-    },
-    "flick": {
-      "name": "Flick",
-      "url": "",
-      "founders": [
-        "Nigel Eccles",
-        "Rob Jones"
-      ],
-      "description": "Real-time sports fan chat and prediction platform",
-      "image": "assets/images/flick.jpg",
-      "alt": "Flick",
-      "agentDescription": "Real-time sports fan chat and predictions"
-    },
-    "depot-global": {
-      "name": "Depot Global",
-      "url": "",
-      "founders": [
-        "Brad O'Neill",
-        "Lindsey Haswell"
-      ],
-      "description": "Autonomous vehicle adoption software and services",
-      "image": "assets/images/depot-global.jpg",
-      "alt": "Depot Global",
-      "agentDescription": "Autonomous vehicle adoption software"
     }
   }
 }

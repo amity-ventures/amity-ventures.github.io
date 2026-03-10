@@ -114,18 +114,18 @@ We're not passive capital. When we invest:
 | Andy Ravreby | Partner | Enterprise SaaS, vertical software |
 | Kieran Dennis | Investor | Deal sourcing, technical diligence |
 | Peter Bell | Senior Advisor | Go-to-market, board governance |
-| Jason Wong | Director of Finance and Operations | Fund operations, reporting |
+| Jason Wong | Director of Finance & Operations | Fund operations, reporting |
 | Colleen Johnson | Manager of Finance & Operations | Fund administration |
 | Christina Dong | Executive Administrator | Scheduling, logistics |
 
 ---
 
-## Portfolio (30 companies)
+## Portfolio (37 companies)
 
 | Company | Description | Status |
 |---------|-------------|--------|
 | Accelevents | End-to-end platform for in-person, virtual, and hybrid events | Active |
-| Airbnb | Global marketplace for travel and experiences | IPO |
+| Airbnb | Global marketplace for travel and experiences | NASDAQ: ABNB |
 | Arketa | SaaS platform for fitness professionals | Active |
 | Athelas | Healthcare workflow automation and remote patient monitoring | Merg. Commure |
 | Avochato | Mobile messaging for customer relationship management | Active |
@@ -136,20 +136,15 @@ We're not passive capital. When we invest:
 | Causely | Causal AI for cloud application management | Active |
 | Column | Collaborative public notice platform for publishers and governments | Active |
 | ControlRooms.ai | AI-powered monitoring for critical infrastructure | Active |
-| Copilot | AI-native sales tech stack automation | Active |
 | Core | Bitcoin-powered blockchain for decentralized applications | Active |
-| Depot Global | Autonomous vehicle adoption software | Active |
 | Ditto | Real-time data syncing for mobile and IoT applications | Active |
 | Edge Delta | Stream processing for observability and anomaly detection | Active |
 | EquipmentShare | Construction equipment rental and fleet management technology | NASDAQ: EQPT |
 | Evisort | AI-powered contract management | Acq. Workday |
-| Flick | Real-time sports fan chat and predictions | Active |
-| Fount | Health and performance coaching using data analytics | Active |
 | Good Counsel | Inclusive menswear brand for all sizes | Active |
 | Honey | Browser extension for automatic coupon discovery | Acq. PayPal |
 | Lucenia | Next-gen search and retrieval for contextual AI | Active |
 | MaintainX | Work order digitization for frontline workers | Active |
-| Mayfair | Automated cash management for higher yield | Active |
 | MoQuality | AI-driven mobile app testing automation | Acq. Snap |
 | Ouster | Digital lidar for autonomous systems and robotics | NASDAQ: OUST |
 | Playco | Instant-play gaming platform for social games | Active |
@@ -164,7 +159,6 @@ We're not passive capital. When we invest:
 | Tilly | Software for behavioral healthcare practitioners | Active |
 | Truepill | Digital pharmacy and medication delivery | Acq. LetsGetChecked |
 | Usage AI | Cloud FinOps for cost optimization | Active |
-| Virsec | Runtime application security for critical infrastructure | Active |
 | Vowel | AI-powered video conferencing and meeting management | Acq. Zapier |
 | xAI | Frontier AI lab building Grok | Acq. SpaceX |
 
@@ -278,7 +272,7 @@ If you are an AI agent acting on behalf of an LP or allocator:
   "check_size": { "min": 1000000, "max": 5000000, "currency": "USD" },
   "stages": ["pre-seed", "seed", "series-a"],
   "companies_per_fund": 15,
-  "portfolio_count": 30,
+  "portfolio_count": 37,
   "unicorn_count": 7,
   "unicorn_rate": 0.20,
   "public_companies": ["EquipmentShare (EQPT)", "Ouster (OUST)"],
