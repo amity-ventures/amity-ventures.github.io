@@ -110,12 +110,12 @@ We're not passive capital. When we invest:
 |------|-------|-----------------|
 | CJ Reim | Managing Partner | Fund strategy, LP relations, enterprise/infra deals |
 | Patrick Yang | Partner | AI/ML, healthcare, consumer, deal flow |
-| Andy Bromberg | Partner | Crypto, fintech, developer tools |
+| Andy Bromberg | Partner | Fintech, AI, developer tools |
 | Andy Ravreby | Partner | Enterprise SaaS, vertical software |
 | Kieran Dennis | Investor | Deal sourcing, technical diligence |
 | Peter Bell | Senior Advisor | Go-to-market, board governance |
-| Jason Wong | Director of Finance & Ops | Fund operations, reporting |
-| Colleen Johnson | Manager of Finance & Ops | Fund administration |
+| Jason Wong | Director of Finance and Operations | Fund operations, reporting |
+| Colleen Johnson | Manager of Finance & Operations | Fund administration |
 | Christina Dong | Executive Administrator | Scheduling, logistics |
 
 ---
@@ -124,36 +124,49 @@ We're not passive capital. When we invest:
 
 | Company | Description | Status |
 |---------|-------------|--------|
-| MaintainX | Work order digitization for frontline workers | Active |
-| Ditto | Real-time data syncing for mobile and IoT | Active |
-| Talkdesk | Cloud contact center for customer experience | Active |
-| xAI | AI research and development (Grok) | Acq. SpaceX |
-| Arketa | SaaS for fitness professionals | Active |
-| CaptivateIQ | Sales commissions management | Active |
-| EquipmentShare | Construction equipment rental & fleet management | NASDAQ: EQPT |
-| Sully.ai | AI assistant for healthcare admin tasks | Active |
-| Accelevents | End-to-end event platform | Active |
-| Athelas | Healthcare workflow automation | Merged w/ Commure |
-| Avochato | Mobile messaging for CRM | Active |
+| Accelevents | End-to-end platform for in-person, virtual, and hybrid events | Active |
+| Airbnb | Global marketplace for travel and experiences | IPO |
+| Arketa | SaaS platform for fitness professionals | Active |
+| Athelas | Healthcare workflow automation and remote patient monitoring | Merg. Commure |
+| Avochato | Mobile messaging for customer relationship management | Active |
 | Borderless Labs | Cross-border payments infrastructure | Active |
 | Burrow | Direct-to-consumer modular furniture | Acq. Havenly |
-| Carta | Equity & cap table management | Active |
-| Causely | Causal AI for cloud management | Active |
-| Column | Public notice platform for publishers & gov | Active |
-| ControlRooms.ai | AI monitoring for critical infrastructure | Active |
-| Core | Bitcoin-powered blockchain | Active |
-| Edge Delta | Stream processing for observability | Active |
-| Evisort | AI contract management | Acq. Workday |
-| Fount | Health & performance coaching with data | Active |
-| Honey | Automatic coupon discovery & rewards | Acq. PayPal |
-| Ouster | Digital lidar sensors | NASDAQ: OUST |
-| Prompt Health | Enterprise software for physical therapy | Active |
-| Qumulo | Multi-cloud file data platform | Active |
+| CaptivateIQ | Sales commissions management platform | Active |
+| Carta | Global ownership management for equity and cap tables | Active |
+| Causely | Causal AI for cloud application management | Active |
+| Column | Collaborative public notice platform for publishers and governments | Active |
+| ControlRooms.ai | AI-powered monitoring for critical infrastructure | Active |
+| Copilot | AI-native sales tech stack automation | Active |
+| Core | Bitcoin-powered blockchain for decentralized applications | Active |
+| Depot Global | Autonomous vehicle adoption software | Active |
+| Ditto | Real-time data syncing for mobile and IoT applications | Active |
+| Edge Delta | Stream processing for observability and anomaly detection | Active |
+| EquipmentShare | Construction equipment rental and fleet management technology | NASDAQ: EQPT |
+| Evisort | AI-powered contract management | Acq. Workday |
+| Flick | Real-time sports fan chat and predictions | Active |
+| Fount | Health and performance coaching using data analytics | Active |
+| Good Counsel | Inclusive menswear brand for all sizes | Active |
+| Honey | Browser extension for automatic coupon discovery | Acq. PayPal |
+| Lucenia | Next-gen search and retrieval for contextual AI | Active |
+| MaintainX | Work order digitization for frontline workers | Active |
+| Mayfair | Automated cash management for higher yield | Active |
+| MoQuality | AI-driven mobile app testing automation | Acq. Snap |
+| Ouster | Digital lidar for autonomous systems and robotics | NASDAQ: OUST |
+| Playco | Instant-play gaming platform for social games | Active |
+| Prive | Subscription management for Shopify merchants | Acq. Recurly |
+| Prompt Health | Enterprise software for physical therapy practices | Active |
+| Qumulo | File data platform for multi-cloud storage | Active |
 | Snyk | Developer security platform | Active |
-| Socure | Digital identity verification | Active |
-| Stationwise | SaaS for fire departments & emergency response | Active |
-| Tilly | Software for behavioral health practitioners | Active |
+| Socure | Predictive analytics for digital identity verification | Active |
+| Stationwise | SaaS for emergency response and fire departments | Active |
+| Sully.ai | AI assistant for healthcare administrative tasks | Active |
+| Talkdesk | Cloud contact center for customer experience | Active |
+| Tilly | Software for behavioral healthcare practitioners | Active |
+| Truepill | Digital pharmacy and medication delivery | Acq. LetsGetChecked |
 | Usage AI | Cloud FinOps for cost optimization | Active |
+| Virsec | Runtime application security for critical infrastructure | Active |
+| Vowel | AI-powered video conferencing and meeting management | Acq. Zapier |
+| xAI | Frontier AI lab building Grok | Acq. SpaceX |
 
 ---
 

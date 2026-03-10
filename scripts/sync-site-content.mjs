@@ -69,23 +69,17 @@ function syncSkillMarkdown(siteData) {
   const filePath = path.join(rootDir, "skill.md");
   let source = fs.readFileSync(filePath, "utf8");
 
-  source = replaceBlock({
+  source = replacePattern(
     source,
-    label: "skill-team-table",
-    blockType: "md",
-    fallbackPattern:
-      /\| Name \| Title \|\n\|------\|-------\|\n[\s\S]*?(?=\n## Portfolio)/,
-    content: renderSkillTeamTable(siteData),
-  });
+    /\| Name \| Title \|[^\n]*\n\|[-| ]+\|\n[\s\S]*?(?=\n---\n\n## Portfolio)/,
+    renderSkillTeamTable(siteData)
+  );
 
-  source = replaceBlock({
+  source = replacePattern(
     source,
-    label: "skill-portfolio-table",
-    blockType: "md",
-    fallbackPattern:
-      /\| Company \| Description \|\n\|---------\|-------------\|\n[\s\S]*?(?=\n## Contact)/,
-    content: renderSkillPortfolioTable(siteData),
-  });
+    /\| Company \| Description \|[^\n]*\n\|[-| ]+\|\n[\s\S]*?(?=\n---\n\n## For Agents)/,
+    renderSkillPortfolioTable(siteData)
+  );
 
   writeIfChanged(filePath, source);
 }
@@ -109,15 +103,27 @@ function renderHumanPortfolio(siteData) {
 }
 
 function renderHumanPortfolioCompany(company) {
-  return [
-    `<a href="${escapeAttribute(company.url)}" target="_blank" rel="noopener noreferrer" class="company">`,
+  const inner = [
     '    <div class="company-info">',
     `        <span class="company-name">${renderCompanyName(company)}</span>`,
     `        <span class="company-founders">${escapeHtml(company.founders.join(", "))}</span>`,
     "    </div>",
     `    <span class="company-desc">${escapeHtml(company.description)}</span>`,
     `    <img src="${escapeAttribute(company.image)}" alt="${escapeAttribute(company.alt)}" class="company-hover-img">`,
-    "</a>",
+  ];
+
+  if (company.url) {
+    return [
+      `<a href="${escapeAttribute(company.url)}" target="_blank" rel="noopener noreferrer" class="company">`,
+      ...inner,
+      "</a>",
+    ].join("\n");
+  }
+
+  return [
+    '<div class="company company-no-link">',
+    ...inner,
+    "</div>",
   ].join("\n");
 }
 
@@ -201,12 +207,12 @@ function renderHomeMemberData(siteData) {
 function renderSkillTeamTable(siteData) {
   const rows = siteData.teamOrder.agent.map((memberId) => {
     const member = getTeamMember(siteData, memberId);
-    return `| ${escapeMarkdown(member.name)} | ${escapeMarkdown(member.title)} |`;
+    return `| ${escapeMarkdown(member.name)} | ${escapeMarkdown(member.title)} | ${escapeMarkdown(member.skillDescription || "")} |`;
   });
 
   return [
-    "| Name | Title |",
-    "|------|-------|",
+    "| Name | Title | Reach out about |",
+    "|------|-------|-----------------|",
     ...rows,
     "",
   ].join("\n");
@@ -215,14 +221,15 @@ function renderSkillTeamTable(siteData) {
 function renderSkillPortfolioTable(siteData) {
   const rows = siteData.portfolioOrder.agent.map((companyId) => {
     const company = getPortfolioCompany(siteData, companyId);
+    const status = company.badge ? escapeMarkdown(company.badge.text) : "Active";
     return `| ${escapeMarkdown(company.name)} | ${escapeMarkdown(
       getAgentDescription(company)
-    )} |`;
+    )} | ${status} |`;
   });
 
   return [
-    "| Company | Description |",
-    "|---------|-------------|",
+    "| Company | Description | Status |",
+    "|---------|-------------|--------|",
     ...rows,
     "",
   ].join("\n");
@@ -274,6 +281,13 @@ function replaceBlock({ source, label, blockType, fallbackPattern, content }) {
   }
 
   return source.replace(fallbackPattern, wrappedContent);
+}
+
+function replacePattern(source, pattern, content) {
+  if (!pattern.test(source)) {
+    throw new Error(`Could not find pattern to replace: ${pattern}`);
+  }
+  return source.replace(pattern, content);
 }
 
 function getMarkers(label, blockType) {

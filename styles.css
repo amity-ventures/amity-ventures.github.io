@@ -561,6 +561,10 @@ p.definition {
     z-index: 20;
 }
 
+.company-no-link {
+    cursor: default;
+}
+
 .company-hover-img {
     position: absolute;
     left: 45%;
