@@ -842,7 +842,7 @@
             if (e.key === 'Escape') document.getElementById('lp-login-modal').classList.remove('active');
         });
 
-        function setMode(mode) {
+        function setMode(mode, fromPopstate) {
             var body = document.body;
             var agentContent = document.querySelector('.hero-agent-content');
             var humanContent = document.querySelector('.hero-human-content');
@@ -855,7 +855,7 @@
                         agentContent.style.opacity = '1';
                     });
                 });
-                history.replaceState(null, '', '#agent');
+                if (!fromPopstate) history.pushState({ mode: 'agent' }, '', '#agent');
             } else {
                 body.classList.remove('agent-mode');
                 humanContent.style.opacity = '0';
@@ -864,9 +864,18 @@
                         humanContent.style.opacity = '1';
                     });
                 });
-                history.replaceState(null, '', window.location.pathname);
+                if (!fromPopstate) history.pushState({ mode: 'human' }, '', window.location.pathname);
             }
         }
+
+        window.addEventListener('popstate', function() {
+            if (window.location.hash === '#agent') {
+                setMode('agent', true);
+            } else {
+                setMode('human', true);
+            }
+        });
+
         if (window.location.hash === '#agent') {
             document.body.classList.add('agent-mode');
         }
