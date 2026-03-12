@@ -1056,22 +1056,15 @@
                 companyList.innerHTML = originalPortfolioHTML;
                 btn.textContent = 'Show more';
             } else {
-                // Expand: flatten and sort all companies alphabetically
+                // Expand: keep featured 8 in place, sort the rest alphabetically
                 const moreCompanies = Array.from(more.children);
-                moreCompanies.forEach(c => companyList.appendChild(c));
-                more.classList.add('visible');
-
-                const allCompanies = Array.from(
-                    companyList.querySelectorAll(':scope > .company, :scope > .company-no-link')
-                );
-                allCompanies.sort((a, b) => {
+                moreCompanies.sort((a, b) => {
                     const nameA = a.querySelector('.company-name').textContent.trim().toLowerCase();
                     const nameB = b.querySelector('.company-name').textContent.trim().toLowerCase();
                     return nameA.localeCompare(nameB);
                 });
-
-                // Re-append sorted (before the more-companies div and button)
-                allCompanies.forEach(c => companyList.insertBefore(c, more));
+                moreCompanies.forEach(c => companyList.insertBefore(c, more));
+                more.classList.add('visible');
                 more.style.display = 'none';
                 btn.textContent = 'Show fewer';
             }
