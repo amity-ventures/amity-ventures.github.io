@@ -93,14 +93,14 @@ We're not passive capital. When we invest:
 > "I think of Amity like true co-founders of MaintainX that just happened to pay for their equity."
 > — **Chris Turlica**, MaintainX
 
+> "Amity was one of our first believers and truly one of the best."
+> — **Henry Gasztowtt**, Isara
+
 > "Amity backed us multiple times when it wasn't close to obvious. They are the definition of what venture capital should be: early when others wait, concentrated when others hedge, and in the building with us when others just watch."
 > — **Ahmed Omar**, Sully.ai
 
 > "The Amity team are the rare investors who are just as comfortable debating big strategic swings as getting deep into the weeds of our day-to-day."
 > — **Rachel Lea Fishman**, Arketa
-
-> "Amity was one of our first believers and truly one of the best."
-> — **Henry Gasztowtt**, Isara
 
 ---
 
@@ -131,18 +131,19 @@ We're not passive capital. When we invest:
 | Avochato | Mobile messaging for customer relationship management | Active |
 | Borderless Labs | Cross-border payments infrastructure | Active |
 | Burrow | Direct-to-consumer modular furniture | Acq. Havenly |
-| CaptivateIQ | Sales commissions management platform | Active |
+| CaptivateIQ | Financial planning to incentive payout in one AI-infused platform | Active |
 | Carta | Global ownership management for equity and cap tables | Active |
 | Causely | Causal AI for cloud application management | Active |
 | Column | Collaborative public notice platform for publishers and governments | Active |
 | ControlRooms.ai | AI-powered monitoring for critical infrastructure | Active |
 | Core | Bitcoin-powered blockchain for decentralized applications | Active |
-| Ditto | Real-time data syncing for mobile and IoT applications | Active |
+| Ditto | Edge-native, mobile database that keeps mission critical systems online | Active |
 | Edge Delta | Stream processing for observability and anomaly detection | Active |
 | EquipmentShare | Construction equipment rental and fleet management technology | NASDAQ: EQPT |
 | Evisort | AI-powered contract management | Acq. Workday |
-| Good Counsel | Inclusive menswear brand for all sizes | Active |
+| Factored Quality | Digital quality control management for consumer brands | Acq. Pietra |
 | Honey | Browser extension for automatic coupon discovery | Acq. PayPal |
+| Isara | Multi-agent coordination for AI | Active |
 | Lucenia | Next-gen search and retrieval for contextual AI | Active |
 | MaintainX | Work order digitization for frontline workers | Active |
 | MoQuality | AI-driven mobile app testing automation | Acq. Snap |
@@ -224,7 +225,6 @@ amity.fun_facts = [
   "We have a digital assets arm called Amity Reserve",
   "Our office is in the Presidio — a national park inside SF",
   "20% of our seed bets became unicorns",
-  "We once invested pre-incorporation",
   "You can find CJ doing CrossFit at 5AM with his favorite public company CEO"
 ]
 ```
