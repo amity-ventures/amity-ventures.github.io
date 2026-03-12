@@ -147,6 +147,7 @@ We're not passive capital. When we invest:
 | Lucenia | Next-gen search and retrieval for contextual AI | Active |
 | MaintainX | Work order digitization for frontline workers | Active |
 | MoQuality | AI-driven mobile app testing automation | Acq. Snap |
+| OurFirm.ai | AI-powered litigation drafting platform | Active |
 | Ouster | Digital lidar for autonomous systems and robotics | NASDAQ: OUST |
 | Playco | Instant-play gaming platform for social games | Active |
 | Prive | Subscription management for Shopify merchants | Acq. Recurly |
@@ -162,6 +163,7 @@ We're not passive capital. When we invest:
 | Usage AI | Cloud FinOps for cost optimization | Active |
 | Vowel | AI-powered video conferencing and meeting management | Acq. Zapier |
 | xAI | Frontier AI lab building Grok | Acq. SpaceX |
+| xFigura | AI-native design canvas for architects | Active |
 
 ---
 

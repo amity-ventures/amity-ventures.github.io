@@ -196,11 +196,16 @@ function renderAgentPortfolioRow(siteData, companyId) {
 }
 
 function renderHomeMemberData(siteData) {
-  const objectSource = `const homeMemberData = ${JSON.stringify(
-    siteData.teamMembers,
-    null,
-    4
-  )};`;
+  const boardUrls = {};
+  for (const company of Object.values(siteData.portfolioCompanies)) {
+    if (company.url) {
+      boardUrls[company.name] = company.url;
+    }
+  }
+  const objectSource = [
+    `const homeMemberData = ${JSON.stringify(siteData.teamMembers, null, 4)};`,
+    `const boardUrls = ${JSON.stringify(boardUrls)};`,
+  ].join("\n");
   return indent(objectSource, 8);
 }
 

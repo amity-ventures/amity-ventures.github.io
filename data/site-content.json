@@ -41,7 +41,7 @@
         "Isara",
         "Lucenia",
         "MaintainX",
-        "OurFirm",
+        "OurFirm.ai",
         "Stationwise",
         "Talkdesk"
       ],
@@ -61,8 +61,12 @@
       "education": "B.S. in Business Administration with Engineering Leadership concentration, UC Berkeley",
       "boards": [
         "Arketa",
+        "CaptivateIQ",
         "Controlrooms.ai",
+        "Core",
+        "Evisort",
         "Sully.ai",
+        "Tilly",
         "Usage AI"
       ],
       "interests": "Tennis, apres-ski, Golden State Warriors",
@@ -86,6 +90,7 @@
         "Co-founder of Lightwork Home Health, a home health assessment company, and interface0, an LLM interface for power users & teams."
       ],
       "boards": [
+        "Isara",
         "Lucenia"
       ],
       "firstJob": "Ice cream scooper",
@@ -104,10 +109,17 @@
       "photo": "assets/images/ravreby.jpeg",
       "bio": "For the past 15 years, Andy has partnered with founders as both an investor and operator across AI, SaaS, and developer tools.\n\nMost recently, he led Finance at EvenUp, an AI-native legal tech company, where he helped pioneer the \"sell work, not software\" model — delivering the legal outputs themselves rather than copilots for attorneys. During his tenure, he guided the company through hypergrowth from Series A to Series E, raising over $400M from Bessemer, Lightspeed, and Bain Capital.\n\nAndy began his investment career at Citadel Global Equities, covering public technology companies. He later joined Square, contributing through its IPO, before moving into early-stage venture. In 2018, he became the first member of Amity's investment team, helping raise, deploy, and support Amity Ventures I.\n\nAndy lives in Moraga, CA with his wife and two children.",
       "education": "Business Administration, UC Berkeley. MBA, The Wharton School.",
+      "boards": [
+        "Avochato",
+        "CaptivateIQ",
+        "Evisort",
+        "MaintainX",
+        "Vowel",
+        "xFigura"
+      ],
       "bookRecommendation": "The Outsiders by William Thorndike",
       "firstJob": "Retail shoe sales",
       "favoriteMeal": "Justin Burrito from Pavlos Tacos",
-      "alternateCareer": "International DJ",
       "linkedin": "https://www.linkedin.com/in/andyrav/",
       "twitter": "https://x.com/aravreby",
       "skillDescription": "Enterprise SaaS, vertical software"
@@ -225,6 +237,7 @@
       "honey",
       "lucenia",
       "moquality",
+      "ourfirm",
       "ouster",
       "playco",
       "prive",
@@ -237,7 +250,8 @@
       "tilly",
       "truepill",
       "usage-ai",
-      "vowel"
+      "vowel",
+      "xfigura"
     ],
     "agent": [
       "accelevents",
@@ -263,6 +277,7 @@
       "lucenia",
       "maintainx",
       "moquality",
+      "ourfirm",
       "ouster",
       "playco",
       "prive",
@@ -277,7 +292,8 @@
       "truepill",
       "usage-ai",
       "vowel",
-      "xai"
+      "xai",
+      "xfigura"
     ]
   },
   "portfolioCompanies": {
@@ -756,6 +772,24 @@
         "text": "Acq. Pietra",
         "className": "badge-acq"
       }
+    },
+    "ourfirm": {
+      "name": "OurFirm.ai",
+      "url": "https://ourfirm.ai/",
+      "founders": ["Andrew Mancilla"],
+      "description": "AI-powered litigation drafting platform",
+      "image": "assets/images/ourfirm.webp",
+      "alt": "OurFirm.ai",
+      "agentDescription": "AI-powered litigation drafting platform"
+    },
+    "xfigura": {
+      "name": "xFigura",
+      "url": "https://xfigura.ai/",
+      "founders": ["George Guida"],
+      "description": "AI-native design canvas for architects",
+      "image": "assets/images/xfigura.jpg",
+      "alt": "xFigura",
+      "agentDescription": "AI-native design canvas for architects"
     },
     "isara": {
       "name": "Isara",

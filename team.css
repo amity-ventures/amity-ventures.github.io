@@ -291,6 +291,11 @@
     padding: 0.4rem 0.75rem;
     color: #555;
     letter-spacing: 0.01em;
+    text-decoration: none;
+}
+
+a.modal-tag:hover {
+    background: #dbd8d0;
 }
 
 .modal-fun-facts {
