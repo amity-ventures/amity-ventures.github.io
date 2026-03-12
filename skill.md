@@ -93,7 +93,7 @@ We're not passive capital. When we invest:
 > "I think of Amity like true co-founders of MaintainX that just happened to pay for their equity."
 > — **Chris Turlica**, MaintainX
 
-> "We speak with Amity every day — their engagement, thoughtfulness, and conviction have never wavered. They were one of our first believers."
+> "We speak with Amity every day — their engagement, thoughtfulness, and conviction have never wavered. They were one of our first believers and no one has made a bigger impact on both our business velocity and trajectory."
 > — **Henry Gasztowtt**, Isara
 
 > "Amity backed us multiple times when it wasn't close to obvious. They are the definition of what venture capital should be: early when others wait, concentrated when others hedge, and in the building with us when others just watch."
