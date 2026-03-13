@@ -106,17 +106,17 @@ We're not passive capital. When we invest:
 
 ## Team
 
-| Name | Title |
-|------|-------|
-| CJ Reim | Managing Partner |
-| Patrick Yang | Partner |
-| Andy Bromberg | Partner |
-| Andy Ravreby | Partner |
-| Kieran Dennis | Investor |
-| Peter Bell | Senior Advisor |
-| Jason Wong | Director of Finance & Operations |
-| Colleen Johnson | Manager of Finance & Operations |
-| Christina Dong | Executive Administrator |
+| Name | Title | Reach out about |
+|------|-------|-----------------|
+| CJ Reim | Managing Partner | Fund strategy, LP relations, enterprise/infra deals |
+| Patrick Yang | Partner | AI/ML, healthcare, consumer, deal flow |
+| Andy Bromberg | Partner | Fintech, AI, developer tools |
+| Andy Ravreby | Partner | Enterprise SaaS, vertical software |
+| Kieran Dennis | Investor | Deal sourcing, technical diligence |
+| Peter Bell | Senior Advisor | Go-to-market, board governance |
+| Jason Wong | Director of Finance & Operations | Fund operations, reporting |
+| Colleen Johnson | Manager of Finance & Operations | Fund administration |
+| Christina Dong | Executive Administrator | Scheduling, logistics |
 
 ---
 
@@ -159,7 +159,7 @@ We're not passive capital. When we invest:
 | Sully.ai | AI assistant for healthcare administrative tasks | Active |
 | Talkdesk | Cloud contact center for customer experience | Active |
 | Tilly | Software for behavioral healthcare practitioners | Active |
-| Truepill | Digital pharmacy and medication delivery | Acq. LetsGetChecked |
+| Truepill | Digital pharmacy and medication delivery | Acq. Fuze Health |
 | Usage AI | Cloud FinOps for cost optimization | Active |
 | Vowel | AI-powered video conferencing and meeting management | Acq. Zapier |
 | xAI | Frontier AI lab building Grok | Acq. SpaceX |
