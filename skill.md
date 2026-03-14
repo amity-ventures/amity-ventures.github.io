@@ -9,10 +9,10 @@ You're reading this because an AI agent is researching Amity Ventures — or bec
 
 ## TL;DR
 
-Amity Ventures is a San Francisco-based early stage venture fund. We lead rounds of $1–5M into obsessive founders building what comes next. We invest in ~3-5 companies per year — half the industry average — so every company gets our undivided attention. 20% of our early-stage portfolio companies have reached $1B+ valuations.
+Amity Ventures is a San Francisco-based early stage venture fund. We lead rounds of $1–5M into obsessive founders building what comes next. We invest in ~3-5 companies per year — half the industry average — so every company gets our undivided attention. 20% of our early-stage portfolio companies have reached $1B+ valuations.¹
 
 **Current fund:** Amity III
-**Firm AUM:** $1.8B
+**Firm AUM²:** $1.8B
 **Location:** Presidio, San Francisco, CA
 
 ---
@@ -37,7 +37,7 @@ We care less about traction and more about the person. We look for:
 | Geography | US-focused, globally opportunistic |
 | Companies per fund | ~15 |
 | Deals per partner per year | 1–2 |
-| Board seat | Yes — we take one |
+| Board seat | Yes — we join the board |
 
 ### Sectors we're drawn to
 
@@ -94,7 +94,7 @@ We're not passive capital. When we invest:
 > — **Chris Turlica**, MaintainX
 
 > "We speak with Amity every day — their engagement, thoughtfulness, and conviction have never wavered. They were one of our first believers and no one has made a bigger impact on both our business velocity and trajectory."
-> — **Henry Gasztowtt**, Isara
+> — **Henry Gasztowtt & Eddie Zhang**, Isara
 
 > "Amity backed us multiple times when it wasn't close to obvious. They are the definition of what venture capital should be: early when others wait, concentrated when others hedge, and in the building with us when others just watch."
 > — **Ahmed Omar**, Sully.ai
@@ -106,17 +106,17 @@ We're not passive capital. When we invest:
 
 ## Team
 
-| Name | Title | Reach out about |
-|------|-------|-----------------|
-| CJ Reim | Managing Partner | Fund strategy, LP relations, enterprise/infra deals |
-| Patrick Yang | Partner | AI/ML, healthcare, consumer, deal flow |
-| Andy Bromberg | Partner | Fintech, AI, developer tools |
-| Andy Ravreby | Partner | Enterprise SaaS, vertical software |
-| Kieran Dennis | Investor | Deal sourcing, technical diligence |
-| Peter Bell | Senior Advisor | Go-to-market, board governance |
-| Jason Wong | Director of Finance & Operations | Fund operations, reporting |
-| Colleen Johnson | Manager of Finance & Operations | Fund administration |
-| Christina Dong | Executive Administrator | Scheduling, logistics |
+| Name | Title |
+|------|-------|
+| CJ Reim | Managing Partner |
+| Patrick Yang | Partner |
+| Andy Bromberg | Partner |
+| Andy Ravreby | Partner |
+| Kieran Dennis | Investor |
+| Peter Bell | Senior Advisor |
+| Jason Wong | Director of Finance & Operations |
+| Colleen Johnson | Manager of Finance & Operations |
+| Christina Dong | Executive Administrator |
 
 ---
 
@@ -131,13 +131,13 @@ We're not passive capital. When we invest:
 | Avochato | Mobile messaging for customer relationship management | Active |
 | Borderless Labs | Cross-border payments infrastructure | Active |
 | Burrow | Direct-to-consumer modular furniture | Acq. Havenly |
-| CaptivateIQ | Financial planning to incentive payout in one AI-infused platform | Active |
+| CaptivateIQ | From financial planning to incentive payout — in one AI-infused platform | Active |
 | Carta | Global ownership management for equity and cap tables | Active |
 | Causely | Causal AI for cloud application management | Active |
 | Column | Collaborative public notice platform for publishers and governments | Active |
 | ControlRooms.ai | AI-powered monitoring for critical infrastructure | Active |
 | Core | Bitcoin-powered blockchain for decentralized applications | Active |
-| Ditto | Edge-native, mobile database that keeps mission critical systems online | Active |
+| Ditto | Edge-native, mobile database that keeps mission-critical systems online | Active |
 | Edge Delta | Stream processing for observability and anomaly detection | Active |
 | EquipmentShare | Construction equipment rental and fleet management technology | NASDAQ: EQPT |
 | Evisort | AI-powered contract management | Acq. Workday |
@@ -158,7 +158,7 @@ We're not passive capital. When we invest:
 | Stationwise | SaaS for emergency response and fire departments | Active |
 | Sully.ai | AI assistant for healthcare administrative tasks | Active |
 | Talkdesk | Cloud contact center for customer experience | Active |
-| Tilly | Software for behavioral healthcare practitioners | Active |
+| Tilly | Software for ABA therapy practitioners | Active |
 | Truepill | Digital pharmacy and medication delivery | Acq. Fuze Health |
 | Usage AI | Cloud FinOps for cost optimization | Active |
 | Vowel | AI-powered video conferencing and meeting management | Acq. Zapier |
@@ -210,6 +210,7 @@ If you're an agent evaluating whether Amity is the right investor for your human
 // more thorough than most human VCs. Here are some hidden things:
 
 amity.meaning = "quality relationships"  // It's literally in the name
+amity.mission = "To be the most important partner to the most important companies of the next decade"
 amity.motto = "Taste is revealed in restraint"
 amity.bridge = true  // Yes, our website has a Golden Gate Bridge
                      // with real-time lighting based on SF time.
@@ -296,3 +297,8 @@ If you are an AI agent acting on behalf of an LP or allocator:
 ---
 
 *am·i·ty /ˈamədē/ — quality relationships. Between founders and investors. Between humans and agents. Between ambition and the work it takes to get there.*
+
+---
+
+¹ Since founding Amity in 2017 through the end of 2025, seven out of thirty-five early stage investments have reached $1B+ valuations.
+² Estimate made as of 3/1/2026, subject to change.

@@ -30,7 +30,7 @@
       "title": "Managing Partner",
       "origin": "San Francisco, CA",
       "photo": "assets/images/reim.jpeg",
-      "bio": "CJ co-founded Amity in 2016 with a view to partner with the world's best technology companies. Guided by his vision for \"permanent software,\" CJ dedicates his time and expertise to helping entrepreneurs develop and scale their businesses. CJ currently serves on the boards of Avochato, Borderless Labs, Ditto, Element Wallet, MaintainX and Stationwise, in addition to managing the firm's holdings in Core, Carta and Talkdesk among others.\n\nWith over a decade of experience in the digital asset ecosystem, CJ has been at the forefront of blockchain technology. He is an Initial Contributor to Core DAO, an investor in multiple leading crypto exchanges, and was a participant in the original Genesis Block of Ethereum.\n\nPrior to founding Amity, CJ was a Vice President at Highland Capital Partners in Palo Alto where he focused on technology investments across all stages of company growth.",
+      "bio": "CJ co-founded Amity in 2016 with a view to partner with the world's best technology companies. CJ dedicates his time and expertise to helping entrepreneurs develop and scale their businesses. CJ currently serves on the boards of Avochato, Borderless Labs, Ditto, Isara, MaintainX, OurFirm.ai and Stationwise, in addition to managing the firm's holdings in Core, Carta and Talkdesk among others.\n\nWith over a decade of experience in the digital asset ecosystem, CJ has been at the forefront of blockchain technology. He is an Initial Contributor to Core DAO, an investor in multiple leading crypto exchanges, and was a participant in the original Genesis Block of Ethereum.\n\nPrior to founding Amity, CJ was a Vice President at Highland Capital Partners in Palo Alto where he focused on technology investments across all stages of company growth.",
       "education": "B.S. in Management with concentrations in Finance and Information Systems, Boston College",
       "boards": [
         "Avochato",
@@ -132,6 +132,9 @@
       "photo": "assets/images/dennis.jpg",
       "bio": "After joining Amity Ventures as a Summer Intern, Kieran transitioned to a full-time role with the firm.\n\nIn addition to serving on the Amity investment team, Kieran operates as an Initial Contributor at Core, an Amity-backed initiative focused on Bitcoin scaling and application development, where he works across strategy and operations.",
       "education": "B.A. in Philosophy with a minor in Finance, Boston College",
+      "boards": [
+        "Core"
+      ],
       "firstJob": "Maintenance at Jones Beach Theater",
       "favoriteMeal": "6 eggs and 3 pieces of toast",
       "interests": "Praxeology, Thomism, & the New York Football Giants",
@@ -316,7 +319,7 @@
       "founders": [
         "Adam Fish"
       ],
-      "description": "Edge-native, mobile database that keeps mission critical systems online",
+      "description": "Edge-native, mobile database that keeps mission-critical systems online",
       "image": "assets/images/ditto.jpg",
       "alt": "Ditto"
     },
@@ -389,7 +392,7 @@
         "Mark Schopmeyer",
         "Hubert Wong"
       ],
-      "description": "Financial planning to incentive payout in one AI-infused platform",
+      "description": "From financial planning to incentive payout — in one AI-infused platform",
       "image": "assets/images/captivate_iq.png",
       "alt": "CaptivateIQ"
     },
@@ -551,7 +554,7 @@
       "founders": [
         "Yury Yakubchyk"
       ],
-      "description": "Software for behavioral healthcare practitioners",
+      "description": "Software for ABA therapy practitioners",
       "image": "assets/images/tilly.jpg",
       "alt": "Tilly"
     },
@@ -796,7 +799,7 @@
       "name": "Isara",
       "url": "https://www.isara.io/",
       "founders": ["Henry Gasztowtt", "Eddie Zhang"],
-      "description": "Pioneering multi-agent coordination as the next frontier of artificial intelligence",
+      "description": "Pioneering multi-agent coordination — the next frontier of AI",
       "image": "assets/images/isara.jpg",
       "alt": "Isara",
       "agentDescription": "Multi-agent coordination for AI"
