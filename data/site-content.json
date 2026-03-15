@@ -1,0 +1,791 @@
+{
+  "homeFeaturedCompanyCount": 8,
+  "teamOrder": {
+    "home": [
+      "andy",
+      "andy-ravreby",
+      "cj",
+      "patrick",
+      "kieran",
+      "peter",
+      "christina",
+      "colleen",
+      "jason"
+    ],
+    "agent": [
+      "cj",
+      "patrick",
+      "andy",
+      "andy-ravreby",
+      "kieran",
+      "peter",
+      "jason",
+      "colleen",
+      "christina"
+    ]
+  },
+  "teamMembers": {
+    "cj": {
+      "name": "CJ Reim",
+      "title": "Managing Partner",
+      "origin": "San Francisco, CA",
+      "photo": "assets/images/reim.jpeg",
+      "bio": "CJ co-founded Amity in 2016 with a view to partner with the world's best technology companies. CJ dedicates his time and expertise to helping entrepreneurs develop and scale their businesses. CJ currently serves on the boards of Avochato, Borderless Labs, Ditto, Isara, MaintainX, OurFirm.ai and Stationwise, in addition to managing the firm's holdings in Core, Carta and Talkdesk among others.\n\nWith over a decade of experience in the digital asset ecosystem, CJ has been at the forefront of blockchain technology. He is an Initial Contributor to Core DAO, an investor in multiple leading crypto exchanges, and was a participant in the original Genesis Block of Ethereum.\n\nPrior to founding Amity, CJ was a Vice President at Highland Capital Partners in Palo Alto where he focused on technology investments across all stages of company growth.",
+      "education": "B.S. in Management with concentrations in Finance and Information Systems, Boston College",
+      "boards": [
+        "Avochato",
+        "Borderless Labs",
+        "Carta",
+        "Core",
+        "Ditto",
+        "Isara",
+        "Lucenia",
+        "MaintainX",
+        "OurFirm.ai",
+        "Stationwise",
+        "Talkdesk"
+      ],
+      "bookRecommendation": "A Message to Garcia by Elbert Hubbard",
+      "firstJob": "Caddie",
+      "hiddenTalent": "Spearfishing",
+      "linkedin": "https://www.linkedin.com/in/cjreim/",
+      "twitter": "https://x.com/CJ_Reim",
+      "skillDescription": "Fund strategy, LP relations, enterprise/infra deals"
+    },
+    "patrick": {
+      "name": "Patrick Yang",
+      "title": "Partner",
+      "origin": "San Francisco, CA",
+      "photo": "assets/images/yang.jpeg",
+      "bio": "Patrick co-founded Amity in 2016 and strives to being the most important board partner to obsessive, high agency founders.\n\nPrior to Amity, Patrick was a Vice President at Highland Capital Partners ($8B+ AUM global venture firm). Patrick started his career at Morgan Stanley in their Menlo Park technology investment banking group.",
+      "education": "B.S. in Business Administration with Engineering Leadership concentration, UC Berkeley",
+      "boards": [
+        "Arketa",
+        "CaptivateIQ",
+        "Controlrooms.ai",
+        "Evisort",
+        "Sully.ai",
+        "Tilly",
+        "Usage AI"
+      ],
+      "interests": "Tennis, apres-ski, Golden State Warriors",
+      "community": "Board member of Advancing Women in Tech",
+      "bookRecommendation": "Insanely Simple by Ken Segall",
+      "linkedin": "https://www.linkedin.com/in/patrick-z-yang/",
+      "skillDescription": "AI/ML, healthcare, consumer, deal flow"
+    },
+    "andy": {
+      "name": "Andy Bromberg",
+      "title": "Partner",
+      "origin": "Newport Beach, CA",
+      "photo": "assets/images/bromberg.jpg",
+      "bio": "Andy joined Amity Ventures in September 2024 after more than a decade of founding and serving as CEO of venture-backed companies. He brings this operating experience and his engineering background to bear when helping founders build their businesses. He loves getting in the weeds and helping the Amity portfolio with problems big or small.",
+      "education": "Mathematics and Computer Science, Stanford University, where he co-founded the Stanford Bitcoin Group before dropping out to found Sidewire.",
+      "careerHighlights": [
+        "Co-founded and served as founding CEO of CoinList, a digital asset platform that has facilitated token sales for major projects including Solana, Filecoin, Near, and Flow. Last valued at $1.5 billion.",
+        "Co-founded and served as CEO of Eco, building stablecoin liquidity infrastructure. Eco has raised over $90 million from leading investors including a16z Crypto, L Catterton, Activant Capital, Founders Fund, Lightspeed Venture Partners, and Pantera Capital.",
+        "Co-founded and served as CEO of Sidewire, a conversation platform that delivered expert analysis on current events.",
+        "Founding board member of FreeWorld, a non-profit seeking to end generational poverty and recidivism by providing access to living-wage jobs for people with criminal histories.",
+        "Co-founder of Lightwork Home Health, a home health assessment company, and interface0, an LLM interface for power users & teams."
+      ],
+      "boards": [
+        "Isara",
+        "Lucenia"
+      ],
+      "firstJob": "Ice cream scooper",
+      "favoriteMeal": "Ribeye",
+      "interests": "Tinkering of all types",
+      "bookRecommendation": "Seeing that Frees by Rob Burbea",
+      "linkedin": "https://www.linkedin.com/in/andybromberg/",
+      "twitter": "https://x.com/andy_bromberg",
+      "website": "https://andybromberg.com",
+      "skillDescription": "Fintech, AI, developer tools"
+    },
+    "andy-ravreby": {
+      "name": "Andy Ravreby",
+      "title": "Partner",
+      "origin": "San Francisco, CA",
+      "photo": "assets/images/ravreby.jpeg",
+      "bio": "For the past 15 years, Andy has partnered with founders as both an investor and operator across AI, SaaS, and developer tools.\n\nMost recently, he led Finance at EvenUp, an AI-native legal tech company, where he helped pioneer the \"sell work, not software\" model — delivering the legal outputs themselves rather than copilots for attorneys. During his tenure, he guided the company through hypergrowth from Series A to Series E, raising over $400M from Bessemer, Lightspeed, and Bain Capital.\n\nAndy began his investment career at Citadel Global Equities, covering public technology companies. He later joined Square, contributing through its IPO, before moving into early-stage venture. In 2018, he became the first member of Amity's investment team, helping raise, deploy, and support Amity Ventures I.\n\nAndy lives in Moraga, CA with his wife and two children.",
+      "education": "Business Administration, UC Berkeley. MBA, The Wharton School.",
+      "boards": [
+        "Avochato",
+        "CaptivateIQ",
+        "Evisort",
+        "MaintainX",
+        "Vowel",
+        "xFigura"
+      ],
+      "bookRecommendation": "The Outsiders by William Thorndike",
+      "firstJob": "Retail shoe sales",
+      "favoriteMeal": "Justin Burrito from Pavlos Tacos",
+      "linkedin": "https://www.linkedin.com/in/andyrav/",
+      "twitter": "https://x.com/aravreby",
+      "skillDescription": "Enterprise SaaS, vertical software"
+    },
+    "kieran": {
+      "name": "Kieran Dennis",
+      "title": "Investor",
+      "origin": "San Juan, PR",
+      "photo": "assets/images/dennis.jpg",
+      "bio": "After joining Amity Ventures as a Summer Intern, Kieran transitioned to a full-time role with the firm.\n\nIn addition to serving on the Amity investment team, Kieran operates as an Initial Contributor at Core, an Amity-backed initiative focused on Bitcoin scaling and application development, where he works across strategy and operations.",
+      "education": "B.A. in Philosophy with a minor in Finance, Boston College",
+      "boards": [
+        "Core"
+      ],
+      "firstJob": "Maintenance at Jones Beach Theater",
+      "favoriteMeal": "6 eggs and 3 pieces of toast",
+      "interests": "Praxeology, Thomism, & the New York Football Giants",
+      "bookRecommendation": "A Man For All Seasons",
+      "linkedin": "https://www.linkedin.com/in/kieran-dennis-997a27205",
+      "skillDescription": "Deal sourcing, technical diligence"
+    },
+    "peter": {
+      "name": "Peter Bell",
+      "title": "Senior Advisor",
+      "origin": "Boston, MA",
+      "photo": "assets/images/bell.jpg",
+      "bio": "Peter Bell partners with entrepreneurs to build companies of consequence. A seasoned venture capitalist and former operator, Peter serves as a Senior Advisor at San Francisco-based Amity Ventures and actively supports SSC Venture Partners, a firm dedicated to backing the Boston College innovation ecosystem.\n\nPeter's career is defined by identifying and backing entrepreneurs at the forefront of paradigm shifts. After beginning his career at Price Waterhouse, he joined EMC Corporation in its early stages, relocating to Silicon Valley in 1987 to help establish the company's presence during the rise of enterprise computing. In 1998, he co-founded StorageNetworks, a pioneer in cloud computing, leading the company through its IPO as CEO in 2000.\n\nIn 2006, Peter joined Highland Capital Partners, eventually serving as Managing General Partner of the $4B global firm. Today, his investment focus targets sectors transforming how we live and work, including Artificial Intelligence, Space Tech, Cybersecurity, and Digital Health. He currently serves on the boards of Accelevents, Causely, and Prompt Health, and previously served on the board of Apex Technology Acquisition Corp during its $2B merger with AvePoint (Nasdaq: AVPT).\n\nA committed educator and mentor, Peter has served on the faculty at both the MIT Sloan School of Management and the Carroll School of Management at Boston College. He is a Trustee Associate at Boston College and an Entrepreneur in Residence at BC's Shea Center for Entrepreneurship.",
+      "education": "B.S., Boston College. MBA, Harvard Business School. Honorary Doctorate, Babson College.",
+      "boards": [
+        "Accelevents",
+        "Causely",
+        "Column",
+        "Edge Delta",
+        "Prompt Health",
+        "Qumulo",
+        "Snyk",
+        "Socure"
+      ],
+      "interests": "All things Boston College, Red Sox, Patriots, Celtics, and Bruins",
+      "firstJob": "New York State Highway Department",
+      "hiddenTalent": "Won college airband competition performing a Billy Idol song",
+      "bookRecommendation": "Theo of Golden by Allen Levi",
+      "linkedin": "https://www.linkedin.com/in/peterwbell/",
+      "twitter": "https://twitter.com/peterwbell",
+      "skillDescription": "Go-to-market, board governance"
+    },
+    "jason": {
+      "name": "Jason Wong",
+      "title": "Director of Finance & Operations",
+      "origin": "San Francisco, CA",
+      "photo": "assets/images/wong.jpg",
+      "bio": "Jason oversees financial reporting to investors, budgeting, cash management, and partnership agreement compliance at Amity Ventures.",
+      "education": "B.S. in Economics, University of California, Santa Cruz. CPA licensed in California.",
+      "previousRole": "VP of Finance and Fund Operations at FundersClub. Tax Manager at Frank, Rimerman + Co. LLP, working with technology startups, venture capital firms, and entrepreneurs.",
+      "interests": "Giants, Niners, Warriors. Hawaii and tropical destinations.",
+      "firstJob": "Lifeguard and swim instructor",
+      "bookRecommendation": "Atomic Habits by James Clear",
+      "linkedin": "https://www.linkedin.com/in/jason-b-wong-433b8911/",
+      "skillDescription": "Fund operations, reporting"
+    },
+    "colleen": {
+      "name": "Colleen Johnson",
+      "title": "Manager of Finance & Operations",
+      "origin": "San Francisco, CA",
+      "photo": "assets/images/johnson.jpg",
+      "bio": "Colleen manages accounting, finance, compliance, and investor relations functions at Amity Ventures.",
+      "education": "B.A. in Economics and Accounting, UC Santa Barbara. Licensed CPA in California.",
+      "previousRole": "Manager at EY in Strategy & Transactions and audit practices, focusing on financial services and technology sector clients.",
+      "firstJob": "Lacrosse coach",
+      "hiddenTalent": "Clarinet",
+      "interests": "Live music, cooking, sports, and long walks with her dog Woogie the mini aussie",
+      "favoriteMeal": "A spread of oysters, pickles, and champagne",
+      "bookRecommendation": "Cat's Cradle by Kurt Vonnegut",
+      "linkedin": "https://www.linkedin.com/in/colleen-johnson-cpa-67b056127/",
+      "skillDescription": "Fund administration"
+    },
+    "christina": {
+      "name": "Christina Dong",
+      "title": "Executive Administrator",
+      "origin": "San Francisco, CA",
+      "photo": "assets/images/dong.jpg",
+      "bio": "Christina manages executive support, administration, and communications for the Amity team. She has an educational background in journalism and English literature, with writing published in Stanford University News Service, Palo Alto Weekly, and Gentry Magazine.",
+      "education": "B.A. in English, Colby College",
+      "previousRole": "Recruiting and corporate communications at Adaptive Insights (now Workday Adaptive Planning).",
+      "hiddenTalent": "DJ",
+      "favoriteMeal": "4505 Cheeseburger with spicy fries",
+      "favoriteAdventure": "Exploring the Scottish highlands solo, by train (and a couple hitchhiked car rides)",
+      "bookRecommendation": "Educated by Tara Westover",
+      "linkedin": "https://www.linkedin.com/in/christinadong/",
+      "skillDescription": "Scheduling, logistics"
+    }
+  },
+  "portfolioOrder": {
+    "human": [
+      "arketa",
+      "captivateiq",
+      "ditto",
+      "evisort",
+      "isara",
+      "maintainx",
+      "talkdesk",
+      "xai",
+      "accelevents",
+      "airbnb",
+      "athelas",
+      "avochato",
+      "borderless-labs",
+      "burrow",
+      "carta",
+      "causely",
+      "column",
+      "controlrooms-ai",
+      "core",
+      "edge-delta",
+      "equipmentshare",
+      "factored-quality",
+      "honey",
+      "lucenia",
+      "moquality",
+      "ourfirm",
+      "ouster",
+      "prive",
+      "prompt-health",
+      "qumulo",
+      "snyk",
+      "socure",
+      "stationwise",
+      "sully-ai",
+      "tilly",
+      "truepill",
+      "usage-ai",
+      "vowel",
+      "xfigura"
+    ],
+    "agent": [
+      "accelevents",
+      "airbnb",
+      "arketa",
+      "athelas",
+      "avochato",
+      "borderless-labs",
+      "burrow",
+      "captivateiq",
+      "carta",
+      "causely",
+      "column",
+      "controlrooms-ai",
+      "core",
+      "ditto",
+      "edge-delta",
+      "equipmentshare",
+      "evisort",
+      "factored-quality",
+      "honey",
+      "isara",
+      "lucenia",
+      "maintainx",
+      "moquality",
+      "ourfirm",
+      "ouster",
+      "prive",
+      "prompt-health",
+      "qumulo",
+      "snyk",
+      "socure",
+      "stationwise",
+      "sully-ai",
+      "talkdesk",
+      "tilly",
+      "truepill",
+      "usage-ai",
+      "vowel",
+      "xai",
+      "xfigura"
+    ]
+  },
+  "portfolioCompanies": {
+    "maintainx": {
+      "name": "MaintainX",
+      "url": "https://www.getmaintainx.com/",
+      "founders": [
+        "Chris Turlica",
+        "Hugo Dozois-Caouette"
+      ],
+      "description": "AI-powered maintenance and asset management software",
+      "image": "assets/images/maintainx.png",
+      "alt": "MaintainX",
+      "agentDescription": "Work order digitization for frontline workers"
+    },
+    "ditto": {
+      "name": "Ditto",
+      "url": "https://www.ditto.live/",
+      "founders": [
+        "Adam Fish"
+      ],
+      "description": "Edge-native, mobile database that keeps mission-critical systems online",
+      "image": "assets/images/ditto.jpg",
+      "alt": "Ditto"
+    },
+    "talkdesk": {
+      "name": "Talkdesk",
+      "url": "https://www.talkdesk.com/",
+      "founders": [
+        "Tiago Paiva"
+      ],
+      "description": "AI agents that orchestrate the entire customer journey",
+      "image": "assets/images/talkdesk.webp",
+      "alt": "Talkdesk",
+      "agentDescription": "Cloud contact center for customer experience"
+    },
+    "arketa": {
+      "name": "Arketa",
+      "url": "https://www.arketa.com/",
+      "founders": [
+        "Rachel Lea Fishman",
+        "Josh Archer"
+      ],
+      "description": "All-in-one business platform designed to run and grow modern fitness and wellness businesses",
+      "image": "assets/images/arketa.jpeg",
+      "alt": "Arketa",
+      "agentDescription": "SaaS platform for fitness professionals"
+    },
+    "carta": {
+      "name": "Carta",
+      "url": "https://carta.com/",
+      "founders": [
+        "Henry Ward",
+        "Manu Kumar"
+      ],
+      "description": "Global ownership management platform for equity and cap tables",
+      "image": "assets/images/carta.jpg",
+      "alt": "Carta",
+      "agentDescription": "Global ownership management for equity and cap tables"
+    },
+    "snyk": {
+      "name": "Snyk",
+      "url": "https://snyk.io/",
+      "founders": [
+        "Peter McKay"
+      ],
+      "description": "Developer security platform for building secure software",
+      "image": "assets/images/snyk.jpg",
+      "alt": "Snyk",
+      "agentDescription": "Developer security platform"
+    },
+    "athelas": {
+      "name": "Athelas",
+      "url": "https://www.athelas.com/",
+      "founders": [
+        "Tanay Tandon",
+        "Deepika Bodapati"
+      ],
+      "description": "Healthcare workflow automation and remote patient monitoring",
+      "image": "assets/images/athelas.webp",
+      "alt": "Athelas",
+      "badge": {
+        "text": "Merg. Commure",
+        "className": "badge-merg"
+      }
+    },
+    "captivateiq": {
+      "name": "CaptivateIQ",
+      "url": "https://www.captivateiq.com/",
+      "founders": [
+        "Conway Teng",
+        "Mark Schopmeyer",
+        "Hubert Wong"
+      ],
+      "description": "From financial planning to incentive payouts — in one AI-infused platform",
+      "image": "assets/images/captivate_iq.png",
+      "alt": "CaptivateIQ"
+    },
+    "sully-ai": {
+      "name": "Sully.ai",
+      "url": "https://www.sully.ai/",
+      "founders": [
+        "Ahmed Omar",
+        "Ahmed Nasser"
+      ],
+      "description": "AI assistant automating healthcare administrative tasks",
+      "image": "assets/images/sully_ai.jpg",
+      "alt": "Sully.ai",
+      "agentDescription": "AI assistant for healthcare administrative tasks"
+    },
+    "socure": {
+      "name": "Socure",
+      "url": "https://www.socure.com/",
+      "founders": [
+        "Johnny Ayers"
+      ],
+      "description": "Predictive analytics for digital identity verification",
+      "image": "assets/images/socure.jpg",
+      "alt": "Socure"
+    },
+    "qumulo": {
+      "name": "Qumulo",
+      "url": "https://qumulo.com/",
+      "founders": [
+        "Douglas Gourlay",
+        "Aaron Passey"
+      ],
+      "description": "File data platform for multi-cloud storage management",
+      "image": "assets/images/qumulo.jpg",
+      "alt": "Qumulo",
+      "agentDescription": "File data platform for multi-cloud storage"
+    },
+    "edge-delta": {
+      "name": "Edge Delta",
+      "url": "https://edgedelta.com/",
+      "founders": [
+        "Ozan Unlu",
+        "Fatih Yildiz"
+      ],
+      "description": "Stream processing for observability and anomaly detection",
+      "image": "assets/images/edge_delta.jpg",
+      "alt": "Edge Delta"
+    },
+    "accelevents": {
+      "name": "Accelevents",
+      "url": "https://www.accelevents.com/",
+      "founders": [
+        "Jonathan Kazarian"
+      ],
+      "description": "End-to-end platform for in-person, virtual, and hybrid events",
+      "image": "assets/images/accelevents.jpg",
+      "alt": "Accelevents"
+    },
+    "avochato": {
+      "name": "Avochato",
+      "url": "https://www.avochato.com/",
+      "founders": [
+        "Alex De Simone",
+        "Christopher Neale"
+      ],
+      "description": "Mobile messaging platform for customer relationship management",
+      "image": "assets/images/avochato.jpg",
+      "alt": "Avochato",
+      "agentDescription": "Mobile messaging for customer relationship management"
+    },
+    "borderless-labs": {
+      "name": "Borderless Labs",
+      "url": "https://borderless.xyz/",
+      "founders": [
+        "Kevin Lehtiniitty"
+      ],
+      "description": "Cross-border payments infrastructure for global fund transfers",
+      "image": "assets/images/borderless.jpg",
+      "alt": "Borderless Labs",
+      "agentDescription": "Cross-border payments infrastructure"
+    },
+    "causely": {
+      "name": "Causely",
+      "url": "https://www.causely.ai/",
+      "founders": [
+        "Shmuel Kliger",
+        "Yotam Yemini"
+      ],
+      "description": "Causal AI for cloud application management and troubleshooting",
+      "image": "assets/images/causely.png",
+      "alt": "Causely",
+      "agentDescription": "Causal AI for cloud application management"
+    },
+    "column": {
+      "name": "Column",
+      "url": "https://www.column.us/",
+      "founders": [
+        "Leo Hentschker",
+        "Jake Seaton"
+      ],
+      "description": "Collaborative public notice platform for publishers and governments",
+      "image": "assets/images/column.jpg",
+      "alt": "Column"
+    },
+    "controlrooms-ai": {
+      "name": "ControlRooms.ai",
+      "url": "https://www.controlrooms.ai/",
+      "founders": [
+        "Monte Zweben",
+        "Omar Talib"
+      ],
+      "description": "AI-powered monitoring for critical infrastructure observability",
+      "image": "assets/images/controlrooms.jpg",
+      "alt": "ControlRooms.ai",
+      "agentDescription": "AI-powered monitoring for critical infrastructure"
+    },
+    "evisort": {
+      "name": "Evisort",
+      "url": "https://www.evisort.com/",
+      "founders": [
+        "Jerry Ting",
+        "Amine Anoun",
+        "Jake Sussman"
+      ],
+      "description": "The global leader in AI-native contract intelligence solutions",
+      "image": "assets/images/evisort.webp",
+      "alt": "Evisort",
+      "agentDescription": "AI-powered contract management",
+      "badge": {
+        "text": "Acq. Workday",
+        "className": "badge-acq"
+      }
+    },
+    "prompt-health": {
+      "name": "Prompt Health",
+      "url": "https://www.prompthealth.com/",
+      "founders": [
+        "Adam Baliatico",
+        "Mike Dwyer"
+      ],
+      "description": "Enterprise software for physical therapy practices",
+      "image": "assets/images/prompt.jpg",
+      "alt": "Prompt Health"
+    },
+    "stationwise": {
+      "name": "Stationwise",
+      "url": "https://www.stationwise.com/",
+      "founders": [
+        "Marcus Edwards"
+      ],
+      "description": "SaaS for emergency response and fire department operations",
+      "image": "assets/images/stationwise.jpg",
+      "alt": "Stationwise",
+      "agentDescription": "SaaS for emergency response and fire departments"
+    },
+    "tilly": {
+      "name": "Tilly",
+      "url": "https://tillytherapy.com/",
+      "founders": [
+        "Yury Yakubchyk"
+      ],
+      "description": "Software for ABA therapy practitioners",
+      "image": "assets/images/tilly.jpg",
+      "alt": "Tilly"
+    },
+    "usage-ai": {
+      "name": "Usage AI",
+      "url": "https://www.usage.ai/",
+      "founders": [
+        "Kaveh Khorram"
+      ],
+      "description": "Cloud FinOps for cost optimization and spend visibility",
+      "image": "assets/images/usage.webp",
+      "alt": "Usage AI",
+      "agentDescription": "Cloud FinOps for cost optimization"
+    },
+    "equipmentshare": {
+      "name": "EquipmentShare",
+      "url": "https://www.equipmentshare.com/",
+      "founders": [
+        "Jabbok Schlacks",
+        "Willy Schlacks"
+      ],
+      "description": "Construction equipment rental and fleet management technology",
+      "image": "assets/images/equipmentshare.jpg",
+      "alt": "EquipmentShare",
+      "badge": {
+        "text": "NASDAQ: EQPT",
+        "className": "badge-ipo"
+      }
+    },
+    "lucenia": {
+      "name": "Lucenia",
+      "url": "https://lucenia.io/",
+      "founders": [
+        "Nick Knize"
+      ],
+      "description": "Next-generation search and retrieval for contextual AI",
+      "image": "assets/images/lucenia.jpg",
+      "alt": "Lucenia",
+      "agentDescription": "Next-gen search and retrieval for contextual AI"
+    },
+    "ouster": {
+      "name": "Ouster",
+      "url": "https://ouster.com/",
+      "founders": [
+        "Angus Pacala",
+        "Mark Frichtl"
+      ],
+      "description": "Digital lidar sensors for autonomous systems and robotics",
+      "image": "assets/images/ouster.jpg",
+      "alt": "Ouster",
+      "agentDescription": "Digital lidar for autonomous systems and robotics",
+      "badge": {
+        "text": "NASDAQ: OUST",
+        "className": "badge-ipo"
+      }
+    },
+    "core": {
+      "name": "Core",
+      "url": "https://coredao.org/",
+      "founders": [
+        "Rich Rines",
+        "Brendon Sedo",
+        "Lindsey Haswell"
+      ],
+      "description": "Bitcoin-powered blockchain for decentralized applications",
+      "image": "assets/images/core.jpg",
+      "alt": "Core"
+    },
+    "burrow": {
+      "name": "Burrow",
+      "url": "https://burrow.com/",
+      "founders": [
+        "Stephen Kuhl",
+        "Kabeer Chopra"
+      ],
+      "description": "Direct-to-consumer modular furniture",
+      "image": "assets/images/burrow.jpg",
+      "alt": "Burrow",
+      "badge": {
+        "text": "Acq. Havenly",
+        "className": "badge-acq"
+      }
+    },
+    "xai": {
+      "name": "xAI",
+      "url": "https://x.ai/",
+      "founders": [
+        "Elon Musk"
+      ],
+      "description": "Frontier AI lab developing Grok to accelerate scientific discovery",
+      "image": "assets/images/xai.jpg",
+      "alt": "xAI",
+      "agentDescription": "Frontier AI lab building Grok",
+      "badge": {
+        "text": "Acq. SpaceX",
+        "className": "badge-acq"
+      }
+    },
+    "honey": {
+      "name": "Honey",
+      "url": "https://www.joinhoney.com/",
+      "founders": [
+        "Ryan Hudson",
+        "George Ruan"
+      ],
+      "description": "Browser extension for automatic coupon and deal discovery",
+      "image": "assets/images/honey.jpg",
+      "alt": "Honey",
+      "agentDescription": "Browser extension for automatic coupon discovery",
+      "badge": {
+        "text": "Acq. PayPal",
+        "className": "badge-acq"
+      }
+    },
+    "truepill": {
+      "name": "Truepill",
+      "url": "https://truepill.com/",
+      "founders": [
+        "Sid Viswanathan",
+        "Umar Afridi"
+      ],
+      "description": "Digital pharmacy and medication delivery platform",
+      "image": "assets/images/truepill.jpg",
+      "alt": "Truepill",
+      "agentDescription": "Digital pharmacy and medication delivery",
+      "badge": {
+        "text": "Acq. Fuze Health",
+        "className": "badge-acq"
+      }
+    },
+    "moquality": {
+      "name": "MoQuality",
+      "url": "",
+      "founders": [
+        "Shauvik Roy Choudhary",
+        "Pushkar Kolhe"
+      ],
+      "description": "AI-driven mobile app testing automation",
+      "image": "assets/images/moquality.jpg",
+      "alt": "MoQuality",
+      "agentDescription": "AI-driven mobile app testing automation",
+      "badge": {
+        "text": "Acq. Snap",
+        "className": "badge-acq"
+      }
+    },
+    "airbnb": {
+      "name": "Airbnb",
+      "url": "https://www.airbnb.com/",
+      "founders": [
+        "Brian Chesky",
+        "Joe Gebbia",
+        "Nathan Blecharczyk"
+      ],
+      "description": "Global marketplace for travel and experiences",
+      "image": "assets/images/airbnb.webp",
+      "alt": "Airbnb",
+      "agentDescription": "Global marketplace for travel and experiences",
+      "badge": {
+        "text": "NASDAQ: ABNB",
+        "className": "badge-ipo"
+      }
+    },
+    "vowel": {
+      "name": "Vowel",
+      "url": "",
+      "founders": [
+        "Andrew Berman",
+        "Ben Kempe",
+        "Matthew Slotkin",
+        "Paul Fisher"
+      ],
+      "description": "AI-powered video conferencing and meeting management",
+      "image": "assets/images/vowel.webp",
+      "alt": "Vowel",
+      "agentDescription": "AI-powered video conferencing and meeting management",
+      "badge": {
+        "text": "Acq. Zapier",
+        "className": "badge-acq"
+      }
+    },
+    "prive": {
+      "name": "Prive",
+      "url": "https://www.tryprive.com/",
+      "founders": [
+        "Alex Craciun",
+        "Claudia Laurie"
+      ],
+      "description": "Subscription management platform for Shopify merchants",
+      "image": "assets/images/prive.jpg",
+      "alt": "Prive",
+      "agentDescription": "Subscription management for Shopify merchants",
+      "badge": {
+        "text": "Acq. Recurly",
+        "className": "badge-acq"
+      }
+    },
+    "factored-quality": {
+      "name": "Factored Quality",
+      "url": "https://www.factoredquality.com/",
+      "founders": ["Prince Ghosh"],
+      "description": "Digital quality control management for consumer brands",
+      "image": "assets/images/factored_quality.jpg",
+      "alt": "Factored Quality",
+      "agentDescription": "Digital quality control management for consumer brands",
+      "badge": {
+        "text": "Acq. Pietra",
+        "className": "badge-acq"
+      }
+    },
+    "ourfirm": {
+      "name": "OurFirm.ai",
+      "url": "https://ourfirm.ai/",
+      "founders": ["Andrew Mancilla"],
+      "description": "AI-powered litigation drafting platform",
+      "image": "assets/images/ourfirm.webp",
+      "alt": "OurFirm.ai",
+      "agentDescription": "AI-powered litigation drafting platform"
+    },
+    "xfigura": {
+      "name": "xFigura",
+      "url": "https://xfigura.ai/",
+      "founders": ["George Guida"],
+      "description": "AI-native design canvas for architects",
+      "image": "assets/images/xfigura.jpg",
+      "alt": "xFigura",
+      "agentDescription": "AI-native design canvas for architects"
+    },
+    "isara": {
+      "name": "Isara",
+      "url": "https://www.isara.io/",
+      "founders": ["Henry Gasztowtt", "Eddie Zhang"],
+      "description": "Pioneering multi-agent coordination — the next frontier of AI",
+      "image": "assets/images/isara.jpg",
+      "alt": "Isara",
+      "agentDescription": "Multi-agent coordination for AI"
+    }
+  }
+}

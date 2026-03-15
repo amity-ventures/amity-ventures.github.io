@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amity Reserve</title>
+    <meta name="description" content="Amity Reserve is an institutional crypto asset manager offering a discretionary product and a co-discretionary product.">
+    <meta property="og:title" content="Amity Reserve">
+    <meta property="og:description" content="Amity Reserve is an institutional crypto asset manager offering a discretionary product and a co-discretionary product.">
+    <meta property="og:image" content="https://amity.vc/assets/images/og.png">
+    <meta property="og:url" content="https://amity.vc/reserve">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Amity Reserve">
+    <meta name="twitter:description" content="Amity Reserve is an institutional crypto asset manager offering a discretionary product and a co-discretionary product.">
+    <meta name="twitter:image" content="https://amity.vc/assets/images/og.png">
+    <link rel="shortcut icon" href="assets/favicon/amity-favicon.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/favicon/amity-webclip.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 18px;
+        }
+
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            background: #111;
+            color: #e8e8e8;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        ::selection {
+            background: #e8e8e8;
+            color: #111;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .reserve-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 3rem;
+        }
+
+        .reserve-nav .wordmark {
+            display: inline-flex;
+            align-items: center;
+            color: #e8e8e8;
+        }
+
+        .nav-logo {
+            height: 32px;
+            width: auto;
+        }
+
+        .reserve-nav .nav-link {
+            font-size: 0.75rem;
+            color: #777;
+            letter-spacing: 0.05em;
+            transition: color 0.2s ease;
+        }
+
+        .reserve-nav .nav-link:hover {
+            color: #e8e8e8;
+        }
+
+        .reserve-main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 0 3rem;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .reserve-title {
+            font-size: 0.7rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: #777;
+            margin-bottom: 2.5rem;
+        }
+
+        .reserve-desc {
+            font-size: 0.95rem;
+            line-height: 1.8;
+            max-width: 540px;
+            color: #888;
+            margin-bottom: 3rem;
+        }
+
+        .reserve-desc .scramble-word {
+            display: inline-block;
+            white-space: nowrap;
+        }
+
+        .reserve-desc .scramble-char {
+            display: inline-block;
+            transition: color 0.08s ease;
+            cursor: default;
+        }
+
+        .reserve-desc .scramble-char.scrambling {
+            color: #e8e8e8;
+        }
+
+        .reserve-login {
+            font-size: 0.8rem;
+            color: #aaa;
+            border-bottom: 1px solid #555;
+            padding-bottom: 2px;
+            letter-spacing: 0.05em;
+            transition: color 0.2s ease, border-color 0.2s ease;
+        }
+
+        .reserve-login:hover {
+            color: #e8e8e8;
+            border-color: #e8e8e8;
+        }
+
+        .reserve-footer {
+            padding: 2rem 3rem;
+            font-size: 0.65rem;
+            color: #555;
+            border-top: 1px solid #1a1a1a;
+        }
+
+        .reserve-footer-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .reserve-footer a {
+            color: #666;
+            transition: color 0.2s ease;
+        }
+
+        .reserve-footer a:hover {
+            color: #ccc;
+        }
+
+        .reserve-footer-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .reserve-footer-disclosures {
+            padding-top: 1.2rem;
+            border-top: 1px solid #1a1a1a;
+            margin-top: 1.2rem;
+        }
+
+        .reserve-footer-disclosures p {
+            font-size: 0.58rem;
+            color: #444;
+            line-height: 1.7;
+            margin-bottom: 0.25rem;
+            letter-spacing: 0.02em;
+        }
+
+        .reserve-footer-disclosures p:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            html {
+                font-size: 16px;
+            }
+
+            .reserve-nav {
+                padding: 1rem 1.5rem;
+            }
+
+            .reserve-main {
+                padding: 0 1.5rem;
+            }
+
+            .reserve-desc {
+                font-size: 0.85rem;
+            }
+
+            .reserve-footer {
+                padding: 1.5rem;
+            }
+
+            .reserve-footer-top {
+                flex-direction: column;
+                gap: 0.8rem;
+                align-items: flex-start;
+            }
+
+            .reserve-footer-links {
+                flex-wrap: wrap;
+                gap: 0.6rem 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="reserve-nav">
+        <a href="/" class="wordmark"><svg class="nav-logo" viewBox="0 0 215.32 79.34" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><g><path d="M142.42,16.95V49.54c0,9.65,5.22,14.61,14.96,14.61,3.45,0,6.02-.62,7.79-1.24v-9.92c-1.51,.62-2.92,.89-4.87,.89-3.28,0-5.14-1.77-5.14-5.49V26.07h9.74v-9.12"/><path d="M0,50.42c0-10.8,9.92-14.88,24.08-14.88h5.22v-1.86c0-5.49-1.68-8.5-7.53-8.5-5.05,0-7.35,2.57-7.88,6.55H1.77c.8-10.98,9.47-15.85,20.81-15.85s19.39,4.6,19.39,17.18v30.19h-9.29l-3.19-5.58c-2.66,3.72-6.73,6.55-13.99,6.55-8.41,0-15.5-4.07-15.5-13.81Zm29.31-3.36v-3.9h-4.96c-7.44,0-11.78,1.59-11.78,6.55,0,3.36,2.04,5.58,6.73,5.58,5.67,0,10.01-3.1,10.01-8.23Z"/><path d="M47.53,16.95h12.84v7.08c2.3-4.34,7.26-8.15,14.17-8.15,6.11,0,10.71,2.57,12.93,8.06,3.72-5.58,9.74-8.06,15.58-8.06,8.59,0,15.23,5.4,15.23,17.71v29.66h-12.75v-28.25c0-5.93-2.66-8.59-7.26-8.59-4.96,0-8.94,3.19-8.94,9.47v27.36h-12.75v-28.25c0-5.93-2.74-8.59-7.26-8.59-4.96,0-8.94,3.19-8.94,9.47v27.36h-12.84V16.95Z"/><path d="M124.06,16.95h12.75V63.26h-12.75V16.95Z"/><path d="M124.06,0h12.75V12.33h-12.75V0Z"/><path d="M142.39,0h12.75V12.33h-12.75V0Z"/><path d="M202.18,16.95l-10.1,31.64h-.18l-10.46-31.64h-13.5l16.18,43.35c.36,.89,.54,1.85,.54,2.86,0,1.37-.4,2.62-1.21,3.75-.8,1.13-2.04,1.79-3.71,1.97h-11.8v10.46h11.8c.12,0,.24,0,.36,0,4.35,0,7.75-.8,10.19-2.41,2.44-1.61,4.35-4.29,5.72-8.04l19.31-51.93h-13.14Z"/></g></svg></a>
+    </nav>
+
+    <main class="reserve-main">
+        <span class="reserve-title">Amity Reserve</span>
+        <p class="reserve-desc" id="scramble-text">Leveraging over a decade of experience investing in digital assets, Amity Reserve manages various strategies on behalf of the Amity team and other investors.</p>
+        <a href="https://amity.formidium.com/login" target="_blank" rel="noopener" class="reserve-login">LP Login &rarr;</a>
+    </main>
+
+    <footer class="reserve-footer">
+        <div class="reserve-footer-top">
+            <span>&copy; 2026 Amity Ventures</span>
+            <div class="reserve-footer-links">
+                <a href="/">Home</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="reserve-footer-disclosures">
+            <p>Amity Ventures LLC is a registered investment adviser with the Securities and Exchange Commission. Registration does not imply a certain level of skill or training.</p>
+            <p>Past performance is not indicative of future results. Any investment involves risk, including the potential loss of principal.</p>
+            <p>This website does not constitute an offer to sell or a solicitation of an offer to buy any securities.</p>
+        </div>
+    </footer>
+
+    <script>
+        var glyphs = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%&*+=?/\\|{}[]<>~^';
+        var container = document.getElementById('scramble-text');
+        var originalText = container.textContent.trim();
+        var chars = [];
+        var pixelRadius = 60;
+        var scrambleSpeed = 40;
+        var mouseX = -9999;
+        var mouseY = -9999;
+        var animFrame = null;
+        var isHovering = false;
+
+        // Split into words, wrap each word in a span (preserves normal word-wrap),
+        // then wrap each character within words
+        var words = originalText.split(/(\s+)/);
+        container.innerHTML = '';
+        for (var w = 0; w < words.length; w++) {
+            var word = words[w];
+            // Whitespace chunks become text nodes to preserve spacing
+            if (/^\s+$/.test(word)) {
+                container.appendChild(document.createTextNode(word));
+                continue;
+            }
+            var wordSpan = document.createElement('span');
+            wordSpan.className = 'scramble-word';
+            for (var c = 0; c < word.length; c++) {
+                var span = document.createElement('span');
+                span.textContent = word[c];
+                span.className = 'scramble-char';
+                span.dataset.original = word[c];
+                wordSpan.appendChild(span);
+                chars.push(span);
+            }
+            container.appendChild(wordSpan);
+        }
+
+        function scrambleLoop() {
+            if (!isHovering) {
+                animFrame = null;
+                return;
+            }
+
+            for (var i = 0; i < chars.length; i++) {
+                var ch = chars[i];
+                var rect = ch.getBoundingClientRect();
+                var cx = rect.left + rect.width / 2;
+                var cy = rect.top + rect.height / 2;
+                var dx = mouseX - cx;
+                var dy = mouseY - cy;
+                var dist = Math.sqrt(dx * dx + dy * dy);
+
+                if (dist < pixelRadius) {
+                    // Closer = more likely to scramble each frame
+                    var intensity = 1 - (dist / pixelRadius);
+                    if (Math.random() < intensity * 0.5) {
+                        ch.textContent = glyphs[Math.floor(Math.random() * glyphs.length)];
+                        ch.classList.add('scrambling');
+                    }
+                } else if (ch.classList.contains('scrambling')) {
+                    // Outside radius: resolve back
+                    ch.textContent = ch.dataset.original;
+                    ch.classList.remove('scrambling');
+                }
+            }
+
+            animFrame = requestAnimationFrame(scrambleLoop);
+        }
+
+        container.addEventListener('mousemove', function(e) {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+            if (!isHovering) {
+                isHovering = true;
+                scrambleLoop();
+            }
+        });
+
+        container.addEventListener('mouseleave', function() {
+            isHovering = false;
+            // Resolve all chars back
+            for (var i = 0; i < chars.length; i++) {
+                chars[i].textContent = chars[i].dataset.original;
+                chars[i].classList.remove('scrambling');
+            }
+        });
+    </script>
+</body>
+</html>
