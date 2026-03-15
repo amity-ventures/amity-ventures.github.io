@@ -131,7 +131,7 @@ We're not passive capital. When we invest:
 | Avochato | Mobile messaging for customer relationship management | Active |
 | Borderless Labs | Cross-border payments infrastructure | Active |
 | Burrow | Direct-to-consumer modular furniture | Acq. Havenly |
-| CaptivateIQ | From financial planning to incentive payout — in one AI-infused platform | Active |
+| CaptivateIQ | From financial planning to incentive payouts — in one AI-infused platform | Active |
 | Carta | Global ownership management for equity and cap tables | Active |
 | Causely | Causal AI for cloud application management | Active |
 | Column | Collaborative public notice platform for publishers and governments | Active |
