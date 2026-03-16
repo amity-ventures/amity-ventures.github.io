@@ -896,7 +896,7 @@
         window.addEventListener('popstate', function() {
             if (window.location.hash === '#agent') {
                 setMode('agent', true);
-            } else {
+            } else if (document.body.classList.contains('agent-mode')) {
                 setMode('human', true);
             }
         });
@@ -1086,8 +1086,7 @@
                 "firstJob": "Caddie",
                 "hiddenTalent": "Spearfishing",
                 "linkedin": "https://www.linkedin.com/in/cjreim/",
-                "twitter": "https://x.com/CJ_Reim",
-                "skillDescription": "Fund strategy, LP relations, enterprise/infra deals"
+                "twitter": "https://x.com/CJ_Reim"
             },
             "patrick": {
                 "name": "Patrick Yang",
@@ -1108,8 +1107,7 @@
                 "interests": "Tennis, apres-ski, Golden State Warriors",
                 "community": "Board member of Advancing Women in Tech",
                 "bookRecommendation": "Insanely Simple by Ken Segall",
-                "linkedin": "https://www.linkedin.com/in/patrick-z-yang/",
-                "skillDescription": "AI/ML, healthcare, consumer, deal flow"
+                "linkedin": "https://www.linkedin.com/in/patrick-z-yang/"
             },
             "andy": {
                 "name": "Andy Bromberg",
@@ -1135,8 +1133,7 @@
                 "bookRecommendation": "Seeing that Frees by Rob Burbea",
                 "linkedin": "https://www.linkedin.com/in/andybromberg/",
                 "twitter": "https://x.com/andy_bromberg",
-                "website": "https://andybromberg.com",
-                "skillDescription": "Fintech, AI, developer tools"
+                "website": "https://andybromberg.com"
             },
             "andy-ravreby": {
                 "name": "Andy Ravreby",
@@ -1157,8 +1154,7 @@
                 "firstJob": "Retail shoe sales",
                 "favoriteMeal": "Justin Burrito from Pavlos Tacos",
                 "linkedin": "https://www.linkedin.com/in/andyrav/",
-                "twitter": "https://x.com/aravreby",
-                "skillDescription": "Enterprise SaaS, vertical software"
+                "twitter": "https://x.com/aravreby"
             },
             "kieran": {
                 "name": "Kieran Dennis",
@@ -1174,8 +1170,7 @@
                 "favoriteMeal": "6 eggs and 3 pieces of toast",
                 "interests": "Praxeology, Thomism, & the New York Football Giants",
                 "bookRecommendation": "A Man For All Seasons",
-                "linkedin": "https://www.linkedin.com/in/kieran-dennis-997a27205",
-                "skillDescription": "Deal sourcing, technical diligence"
+                "linkedin": "https://www.linkedin.com/in/kieran-dennis-997a27205"
             },
             "peter": {
                 "name": "Peter Bell",
@@ -1199,8 +1194,7 @@
                 "hiddenTalent": "Won college airband competition performing a Billy Idol song",
                 "bookRecommendation": "Theo of Golden by Allen Levi",
                 "linkedin": "https://www.linkedin.com/in/peterwbell/",
-                "twitter": "https://twitter.com/peterwbell",
-                "skillDescription": "Go-to-market, board governance"
+                "twitter": "https://twitter.com/peterwbell"
             },
             "jason": {
                 "name": "Jason Wong",
@@ -1213,8 +1207,7 @@
                 "interests": "Giants, Niners, Warriors. Hawaii and tropical destinations.",
                 "firstJob": "Lifeguard and swim instructor",
                 "bookRecommendation": "Atomic Habits by James Clear",
-                "linkedin": "https://www.linkedin.com/in/jason-b-wong-433b8911/",
-                "skillDescription": "Fund operations, reporting"
+                "linkedin": "https://www.linkedin.com/in/jason-b-wong-433b8911/"
             },
             "colleen": {
                 "name": "Colleen Johnson",
@@ -1229,8 +1222,7 @@
                 "interests": "Live music, cooking, sports, and long walks with her dog Woogie the mini aussie",
                 "favoriteMeal": "A spread of oysters, pickles, and champagne",
                 "bookRecommendation": "Cat's Cradle by Kurt Vonnegut",
-                "linkedin": "https://www.linkedin.com/in/colleen-johnson-cpa-67b056127/",
-                "skillDescription": "Fund administration"
+                "linkedin": "https://www.linkedin.com/in/colleen-johnson-cpa-67b056127/"
             },
             "christina": {
                 "name": "Christina Dong",
@@ -1244,8 +1236,7 @@
                 "favoriteMeal": "4505 Cheeseburger with spicy fries",
                 "favoriteAdventure": "Exploring the Scottish highlands solo, by train (and a couple hitchhiked car rides)",
                 "bookRecommendation": "Educated by Tara Westover",
-                "linkedin": "https://www.linkedin.com/in/christinadong/",
-                "skillDescription": "Scheduling, logistics"
+                "linkedin": "https://www.linkedin.com/in/christinadong/"
             }
         };
         const boardUrls = {"MaintainX":"https://www.getmaintainx.com/","Ditto":"https://www.ditto.live/","Talkdesk":"https://www.talkdesk.com/","Arketa":"https://www.arketa.com/","Carta":"https://carta.com/","Snyk":"https://snyk.io/","Athelas":"https://www.athelas.com/","CaptivateIQ":"https://www.captivateiq.com/","Sully.ai":"https://www.sully.ai/","Socure":"https://www.socure.com/","Qumulo":"https://qumulo.com/","Edge Delta":"https://edgedelta.com/","Accelevents":"https://www.accelevents.com/","Avochato":"https://www.avochato.com/","Borderless Labs":"https://borderless.xyz/","Causely":"https://www.causely.ai/","Column":"https://www.column.us/","ControlRooms.ai":"https://www.controlrooms.ai/","Evisort":"https://www.evisort.com/","Prompt Health":"https://www.prompthealth.com/","Stationwise":"https://www.stationwise.com/","Tilly":"https://tillytherapy.com/","Usage AI":"https://www.usage.ai/","EquipmentShare":"https://www.equipmentshare.com/","Lucenia":"https://lucenia.io/","Ouster":"https://ouster.com/","Core":"https://coredao.org/","Burrow":"https://burrow.com/","xAI":"https://x.ai/","Honey":"https://www.joinhoney.com/","Truepill":"https://truepill.com/","Airbnb":"https://www.airbnb.com/","Prive":"https://www.tryprive.com/","Factored Quality":"https://www.factoredquality.com/","OurFirm.ai":"https://ourfirm.ai/","xFigura":"https://xfigura.ai/","Isara":"https://www.isara.io/"};

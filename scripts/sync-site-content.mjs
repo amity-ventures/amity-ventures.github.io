@@ -212,12 +212,12 @@ function renderHomeMemberData(siteData) {
 function renderSkillTeamTable(siteData) {
   const rows = siteData.teamOrder.agent.map((memberId) => {
     const member = getTeamMember(siteData, memberId);
-    return `| ${escapeMarkdown(member.name)} | ${escapeMarkdown(member.title)} | ${escapeMarkdown(member.skillDescription || "")} |`;
+    return `| ${escapeMarkdown(member.name)} | ${escapeMarkdown(member.title)} |`;
   });
 
   return [
-    "| Name | Title | Reach out about |",
-    "|------|-------|-----------------|",
+    "| Name | Title |",
+    "|------|-------|",
     ...rows,
     "",
   ].join("\n");
