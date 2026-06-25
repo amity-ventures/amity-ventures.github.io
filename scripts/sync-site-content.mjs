@@ -103,25 +103,35 @@ function renderHumanPortfolio(siteData) {
 }
 
 function renderHumanPortfolioCompany(company) {
+  const hoverImages =
+    Array.isArray(company.images) && company.images.length > 0
+      ? company.images
+      : [{ src: company.image, alt: company.alt }];
+  const isMulti = hoverImages.length > 1;
+  const companyClass = isMulti ? "company company-multi" : "company";
+
   const inner = [
     '    <div class="company-info">',
     `        <span class="company-name">${renderCompanyName(company)}</span>`,
     `        <span class="company-founders">${escapeHtml(company.founders.join(", "))}</span>`,
     "    </div>",
     `    <span class="company-desc">${escapeHtml(company.description)}</span>`,
-    `    <img src="${escapeAttribute(company.image)}" alt="${escapeAttribute(company.alt)}" class="company-hover-img">`,
+    ...hoverImages.map(
+      (image) =>
+        `    <img src="${escapeAttribute(image.src)}" alt="${escapeAttribute(image.alt)}" class="company-hover-img">`
+    ),
   ];
 
   if (company.url) {
     return [
-      `<a href="${escapeAttribute(company.url)}" target="_blank" rel="noopener noreferrer" class="company">`,
+      `<a href="${escapeAttribute(company.url)}" target="_blank" rel="noopener noreferrer" class="${companyClass}">`,
       ...inner,
       "</a>",
     ].join("\n");
   }
 
   return [
-    '<div class="company company-no-link">',
+    `<div class="${companyClass} company-no-link">`,
     ...inner,
     "</div>",
   ].join("\n");

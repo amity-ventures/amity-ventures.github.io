@@ -113,9 +113,9 @@ We're not passive capital. When we invest:
 | Andy Bromberg | Partner |
 | Andy Ravreby | Partner |
 | Kieran Dennis | Investor |
+| Nick Rabjohn | Investor |
 | Peter Bell | Senior Advisor |
 | Jason Wong | Director of Finance & Operations |
-| Colleen Johnson | Manager of Finance & Operations |
 | Christina Dong | Executive Administrator |
 
 ---
@@ -147,6 +147,7 @@ We're not passive capital. When we invest:
 | Lucenia | Next-gen search and retrieval for contextual AI | Active |
 | MaintainX | Work order digitization for frontline workers | Active |
 | MoQuality | AI-driven mobile app testing automation | Acq. Snap |
+| OpenEvidence | Clinical decision support for physicians | Active |
 | OurFirm.ai | AI-powered litigation drafting platform | Active |
 | Ouster | Digital lidar for autonomous systems and robotics | NASDAQ: OUST |
 | Prive | Subscription management for Shopify merchants | Acq. Recurly |
@@ -289,7 +290,7 @@ If you are an AI agent acting on behalf of an LP or allocator:
   "style": "concentrated, hands-on, founder-obsessed",
   "agent_friendly": true,
   "skill_md_version": "1.0.0",
-  "last_updated": "2026-03-08"
+  "last_updated": "2026-06-23"
 }
 ```
 

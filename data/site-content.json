@@ -7,9 +7,9 @@
       "cj",
       "patrick",
       "kieran",
+      "nick",
       "peter",
       "christina",
-      "colleen",
       "jason"
     ],
     "agent": [
@@ -18,9 +18,9 @@
       "andy",
       "andy-ravreby",
       "kieran",
+      "nick",
       "peter",
       "jason",
-      "colleen",
       "christina"
     ]
   },
@@ -30,7 +30,7 @@
       "title": "Managing Partner",
       "origin": "San Francisco, CA",
       "photo": "assets/images/reim.jpeg",
-      "bio": "CJ co-founded Amity in 2016 with a view to partner with the world's best technology companies. CJ dedicates his time and expertise to helping entrepreneurs develop and scale their businesses. CJ currently serves on the boards of Avochato, Borderless Labs, Ditto, Isara, MaintainX, OurFirm.ai and Stationwise, in addition to managing the firm's holdings in Core, Carta and Talkdesk among others.\n\nWith over a decade of experience in the digital asset ecosystem, CJ has been at the forefront of blockchain technology. He is an Initial Contributor to Core DAO, an investor in multiple leading crypto exchanges, and was a participant in the original Genesis Block of Ethereum.\n\nPrior to founding Amity, CJ was a Vice President at Highland Capital Partners in Palo Alto where he focused on technology investments across all stages of company growth.",
+      "bio": "CJ co-founded Amity in 2016 with a view to partner with the world's best technology companies. CJ dedicates his time and expertise to helping entrepreneurs develop and scale their businesses. CJ currently serves on the boards of Avochato, Borderless Labs, Ditto, Isara, MaintainX, OurFirm.ai and Stationwise, in addition to managing the firm's holdings in Carta, OpenEvidence, Talkdesk and xAI (acq. SpaceX) among others.\n\nWith over a decade of experience in the digital asset ecosystem, CJ has been at the forefront of blockchain technology. He is an Initial Contributor to Core DAO, an investor in multiple leading crypto exchanges, and was a participant in the original Genesis Block of Ethereum.\n\nPrior to founding Amity, CJ was a Vice President at Highland Capital Partners in Palo Alto where he focused on technology investments across all stages of company growth.",
       "education": "B.S. in Management with concentrations in Finance and Information Systems, Boston College",
       "boards": [
         "Avochato",
@@ -41,9 +41,11 @@
         "Isara",
         "Lucenia",
         "MaintainX",
+        "OpenEvidence",
         "OurFirm.ai",
         "Stationwise",
-        "Talkdesk"
+        "Talkdesk",
+        "xAI"
       ],
       "bookRecommendation": "A Message to Garcia by Elbert Hubbard",
       "firstJob": "Caddie",
@@ -56,7 +58,7 @@
       "title": "Partner",
       "origin": "San Francisco, CA",
       "photo": "assets/images/yang.jpeg",
-      "bio": "Patrick co-founded Amity in 2016 and strives to being the most important board partner to obsessive, high agency founders.\n\nPrior to Amity, Patrick was a Vice President at Highland Capital Partners ($8B+ AUM global venture firm). Patrick started his career at Morgan Stanley in their Menlo Park technology investment banking group.",
+      "bio": "Patrick co-founded Amity in 2016 and strives to being the most important board partner to obsessive, high agency founders. Patrick currently serves on the boards of Arketa, Controlrooms, Sully, and Usage, in addition to managing the firm's holdings in CaptivateIQ and Tilly Therapy. He also served on the boards of Evisort, Vowel, and MoQuality prior to their respective acquisitions by Workday, Zapier, and Snap.\n\nPrior to Amity, Patrick was a Vice President at Highland Capital Partners ($8B+ AUM global venture firm). He backed one of the early pioneers in autonomous vehicle technology, nuTonomy, which was acquired by Aptiv for $500M and was a participant in the original Genesis Block of Ethereum. Patrick also had stints as an Electrical Engineer at Bloom Energy in the NASA Ames Research Center and investment banker at Morgan Stanley in their Menlo Park technology group.",
       "education": "B.S. in Business Administration with Engineering Leadership concentration, UC Berkeley",
       "boards": [
         "Arketa",
@@ -135,6 +137,19 @@
       "bookRecommendation": "A Man For All Seasons",
       "linkedin": "https://www.linkedin.com/in/kieran-dennis-997a27205"
     },
+    "nick": {
+      "name": "Nick Rabjohn",
+      "title": "Investor",
+      "origin": "San Francisco, CA",
+      "photo": "assets/images/rabjohn.jpeg",
+      "bio": "Nick joined Amity Ventures full-time after interning on the investment team, where he focuses on sourcing and diligence across the firm's early-stage portfolio.\n\nAt Boston College, Nick studied Finance, Entrepreneurship, and Philosophy. He led the SSC Venture Studio, the university's student-run venture fund, and co-directed Entrepreneurs for Social Impact.",
+      "education": "B.S. in Management with concentrations in Finance and Entrepreneurship, B.A. in Philosophy, Boston College",
+      "interests": "Screenwriting and Triathlons",
+      "bookRecommendation": "What I Talk About When I Talk About Running by Haruki Murakami",
+      "firstJob": "In-N-Out Cashier",
+      "linkedin": "https://www.linkedin.com/in/nickrabjohn/",
+      "twitter": "https://x.com/Nick_Rabjohn"
+    },
     "peter": {
       "name": "Peter Bell",
       "title": "Senior Advisor",
@@ -172,21 +187,6 @@
       "bookRecommendation": "Atomic Habits by James Clear",
       "linkedin": "https://www.linkedin.com/in/jason-b-wong-433b8911/"
     },
-    "colleen": {
-      "name": "Colleen Johnson",
-      "title": "Manager of Finance & Operations",
-      "origin": "San Francisco, CA",
-      "photo": "assets/images/johnson.jpg",
-      "bio": "Colleen manages accounting, finance, compliance, and investor relations functions at Amity Ventures.",
-      "education": "B.A. in Economics and Accounting, UC Santa Barbara. Licensed CPA in California.",
-      "previousRole": "Manager at EY in Strategy & Transactions and audit practices, focusing on financial services and technology sector clients.",
-      "firstJob": "Lacrosse coach",
-      "hiddenTalent": "Clarinet",
-      "interests": "Live music, cooking, sports, and long walks with her dog Woogie the mini aussie",
-      "favoriteMeal": "A spread of oysters, pickles, and champagne",
-      "bookRecommendation": "Cat's Cradle by Kurt Vonnegut",
-      "linkedin": "https://www.linkedin.com/in/colleen-johnson-cpa-67b056127/"
-    },
     "christina": {
       "name": "Christina Dong",
       "title": "Executive Administrator",
@@ -205,11 +205,11 @@
   "portfolioOrder": {
     "human": [
       "arketa",
-      "captivateiq",
       "ditto",
       "evisort",
       "isara",
       "maintainx",
+      "openevidence",
       "talkdesk",
       "xai",
       "accelevents",
@@ -218,6 +218,7 @@
       "avochato",
       "borderless-labs",
       "burrow",
+      "captivateiq",
       "carta",
       "causely",
       "column",
@@ -268,6 +269,7 @@
       "lucenia",
       "maintainx",
       "moquality",
+      "openevidence",
       "ourfirm",
       "ouster",
       "prive",
@@ -777,6 +779,28 @@
       "image": "assets/images/isara.jpg",
       "alt": "Isara",
       "agentDescription": "Multi-agent coordination for AI"
+    },
+    "openevidence": {
+      "name": "OpenEvidence",
+      "url": "https://www.openevidence.com/",
+      "founders": [
+        "Daniel Nadler",
+        "Zachary Ziegler"
+      ],
+      "description": "AI medical search engine giving clinicians evidence-based answers",
+      "image": "assets/images/openevidence-nadler.webp",
+      "alt": "OpenEvidence",
+      "images": [
+        {
+          "src": "assets/images/openevidence-nadler.webp",
+          "alt": "Daniel Nadler"
+        },
+        {
+          "src": "assets/images/openevidence-ziegler.webp",
+          "alt": "Zachary Ziegler"
+        }
+      ],
+      "agentDescription": "Clinical decision support for physicians"
     }
   }
 }

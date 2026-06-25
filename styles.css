@@ -614,6 +614,31 @@ p.definition {
     transform: translate(-50%, -50%) rotate(1deg) scale(1);
 }
 
+.company-multi .company-hover-img {
+    max-width: 150px;
+}
+
+.company-multi .company-hover-img:first-of-type {
+    left: 28%;
+    transform: translate(-50%, -50%) rotate(-9deg) scale(0.7);
+}
+
+.company-multi .company-hover-img:last-of-type {
+    left: 70%;
+    z-index: 9;
+    transform: translate(-50%, -50%) rotate(9deg) scale(0.7);
+}
+
+.company-multi:hover .company-hover-img:first-of-type {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(-4deg) scale(1);
+}
+
+.company-multi:hover .company-hover-img:last-of-type {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(4deg) scale(1);
+}
+
 .company-info {
     display: flex;
     flex-direction: column;
