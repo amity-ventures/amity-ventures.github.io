@@ -788,8 +788,18 @@
         "Zachary Ziegler"
       ],
       "description": "AI medical search engine giving clinicians evidence-based answers",
-      "image": "assets/images/openevidence.jpg",
+      "image": "assets/images/openevidence-nadler.webp",
       "alt": "OpenEvidence",
+      "images": [
+        {
+          "src": "assets/images/openevidence-nadler.webp",
+          "alt": "Daniel Nadler"
+        },
+        {
+          "src": "assets/images/openevidence-ziegler.webp",
+          "alt": "Zachary Ziegler"
+        }
+      ],
       "agentDescription": "Clinical decision support for physicians"
     }
   }
