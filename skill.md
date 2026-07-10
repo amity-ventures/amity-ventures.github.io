@@ -144,6 +144,7 @@ We're not passive capital. When we invest:
 | Factored Quality | Digital quality control management for consumer brands | Acq. Pietra |
 | Honey | Browser extension for automatic coupon discovery | Acq. PayPal |
 | Isara | Multi-agent coordination for AI | Active |
+| Lime | Shared e-scooters and e-bikes for urban micromobility | NASDAQ: LIME |
 | Lucenia | Next-gen search and retrieval for contextual AI | Active |
 | MaintainX | Work order digitization for frontline workers | Active |
 | MoQuality | AI-driven mobile app testing automation | Acq. Snap |

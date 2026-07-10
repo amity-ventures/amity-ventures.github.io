@@ -228,6 +228,7 @@
       "equipmentshare",
       "factored-quality",
       "honey",
+      "lime",
       "lucenia",
       "moquality",
       "ourfirm",
@@ -266,6 +267,7 @@
       "factored-quality",
       "honey",
       "isara",
+      "lime",
       "lucenia",
       "maintainx",
       "moquality",
@@ -655,6 +657,22 @@
       "badge": {
         "text": "Acq. PayPal",
         "className": "badge-acq"
+      }
+    },
+    "lime": {
+      "name": "Lime",
+      "url": "https://www.li.me/",
+      "founders": [
+        "Toby Sun",
+        "Brad Bao"
+      ],
+      "description": "Shared electric scooters and e-bikes for urban micromobility",
+      "image": "assets/images/lime.jpg",
+      "alt": "Lime",
+      "agentDescription": "Shared e-scooters and e-bikes for urban micromobility",
+      "badge": {
+        "text": "NASDAQ: LIME",
+        "className": "badge-ipo"
       }
     },
     "truepill": {
