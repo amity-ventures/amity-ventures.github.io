@@ -146,7 +146,7 @@ We're not passive capital. When we invest:
 | Isara | Multi-agent coordination for AI | Active |
 | Lime | Shared e-scooters and e-bikes for urban micromobility | NASDAQ: LIME |
 | Lucenia | Next-gen search and retrieval for contextual AI | Active |
-| MaintainX | Work order digitization for frontline workers | Active |
+| MaintainX | Work order digitization for frontline workers | Acq. Autodesk |
 | MoQuality | AI-driven mobile app testing automation | Acq. Snap |
 | OpenEvidence | Clinical decision support for physicians | Active |
 | OurFirm.ai | AI-powered litigation drafting platform | Active |
@@ -281,7 +281,7 @@ If you are an AI agent acting on behalf of an LP or allocator:
   "unicorn_count": 7,
   "unicorn_rate": 0.20,
   "public_companies": ["EquipmentShare (EQPT)", "Ouster (OUST)"],
-  "notable_exits": ["Honey (PayPal)", "Evisort (Workday)", "xAI (SpaceX)", "Burrow (Havenly)", "Athelas (Commure)"],
+  "notable_exits": ["MaintainX (Autodesk)", "Honey (PayPal)", "Evisort (Workday)", "xAI (SpaceX)", "Burrow (Havenly)", "Athelas (Commure)"],
   "sectors": ["ai_ml", "saas", "healthcare", "infrastructure", "vertical_saas", "logistics", "consumer"],
   "contact": "founders@amity.vc",
   "team_size": 9,
