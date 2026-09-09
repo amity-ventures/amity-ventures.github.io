@@ -10,7 +10,9 @@
       "nick",
       "peter",
       "christina",
-      "jason"
+      "jason",
+      "peggy",
+      "camryn"
     ],
     "agent": [
       "cj",
@@ -21,7 +23,9 @@
       "nick",
       "peter",
       "jason",
-      "christina"
+      "christina",
+      "peggy",
+      "camryn"
     ]
   },
   "teamMembers": {
@@ -45,7 +49,8 @@
         "OurFirm.ai",
         "Stationwise",
         "Talkdesk",
-        "xAI"
+        "xAI",
+        "Yaxle"
       ],
       "bookRecommendation": "A Message to Garcia by Elbert Hubbard",
       "firstJob": "Caddie",
@@ -61,6 +66,7 @@
       "bio": "Patrick co-founded Amity in 2016 and strives to be the most important board partner to deeply curious, high-taste founders who lead with agency and intent. He currently serves on the boards of Arketa, ControlRooms.ai, Sully.ai, and Usage.ai, and manages the firm's holdings in CaptivateIQ and Tilly Therapy. He previously served on the boards of Evisort, Vowel, and MoQuality prior to their acquisitions by Workday, Zapier, and Snap.\n\nBefore Amity, Patrick was a Vice President at Highland Capital Partners, an $8B+ AUM global venture firm. He backed nuTonomy, an early pioneer in autonomous vehicle technology, which Aptiv acquired for $500M. He was also a participant in the original genesis block of Ethereum. Earlier, Patrick worked at Bloom Energy, based out of their NASA Ames Research Center office, and as an investment banker at Morgan Stanley in their Menlo Park technology group.",
       "education": "B.S. in Business Administration with Engineering Leadership concentration, UC Berkeley",
       "boards": [
+        "American Advanced Materials",
         "Arketa",
         "CaptivateIQ",
         "Controlrooms.ai",
@@ -134,7 +140,7 @@
       "firstJob": "Maintenance at Jones Beach Theater",
       "favoriteMeal": "6 eggs and 3 pieces of toast",
       "interests": "Praxeology, Thomism, & the New York Football Giants",
-      "bookRecommendation": "A Man For All Seasons",
+      "bookRecommendation": "A Man for All Seasons by Robert Bolt",
       "linkedin": "https://www.linkedin.com/in/kieran-dennis-997a27205"
     },
     "nick": {
@@ -200,6 +206,31 @@
       "favoriteAdventure": "Exploring the Scottish highlands solo, by train (and a couple hitchhiked car rides)",
       "bookRecommendation": "Educated by Tara Westover",
       "linkedin": "https://www.linkedin.com/in/christinadong/"
+    },
+    "peggy": {
+      "name": "Peggy Yan",
+      "title": "Finance & Operations Manager",
+      "origin": "San Francisco, CA",
+      "photo": "assets/images/yan.jpg",
+      "bio": "Peggy provides support for accounting, finance, compliance, and investor relations functions at Amity Ventures.",
+      "education": "B.A. in Economics, University of California, San Diego",
+      "previousRole": "Senior Associate at Paradigm, where she oversaw financial and performance reporting. Assurance and Advisory practice at Frank, Rimerman + Co. LLP, serving venture capital and technology clients.",
+      "interests": "Travel hacks, cooking, and good grub",
+      "firstJob": "Math tutor",
+      "bookRecommendation": "The Immortal Life of Henrietta Lacks by Rebecca Skloot",
+      "linkedin": "https://www.linkedin.com/in/peggy-yan/"
+    },
+    "camryn": {
+      "name": "Camryn Woehrle",
+      "title": "Executive Assistant",
+      "origin": "San Francisco, CA",
+      "photo": "assets/images/woehrle.jpg",
+      "bio": "Camryn supports the Amity team through executive support, administrative operations, deal flow support, and communications.",
+      "education": "B.A. in Psychology and Human Development, Washington State University",
+      "previousRole": "Full life cycle recruiter at Insight Global.",
+      "interests": "Pilates, traveling, skiing, reading, and time with friends and family",
+      "bookRecommendation": "Untamed by Glennon Doyle",
+      "linkedin": "https://www.linkedin.com/in/camryn-woehrle-a6960624a/"
     }
   },
   "portfolioOrder": {
@@ -214,6 +245,7 @@
       "xai",
       "accelevents",
       "airbnb",
+      "american-advanced-materials",
       "athelas",
       "avochato",
       "borderless-labs",
@@ -244,11 +276,13 @@
       "truepill",
       "usage-ai",
       "vowel",
-      "xfigura"
+      "xfigura",
+      "yaxle"
     ],
     "agent": [
       "accelevents",
       "airbnb",
+      "american-advanced-materials",
       "arketa",
       "athelas",
       "avochato",
@@ -287,7 +321,8 @@
       "usage-ai",
       "vowel",
       "xai",
-      "xfigura"
+      "xfigura",
+      "yaxle"
     ]
   },
   "portfolioCompanies": {
@@ -393,10 +428,7 @@
     "sully-ai": {
       "name": "Sully.ai",
       "url": "https://www.sully.ai/",
-      "founders": [
-        "Ahmed Omar",
-        "Ahmed Nasser"
-      ],
+      "founders": ["Ahmed Omar"],
       "description": "AI assistant automating healthcare administrative tasks",
       "image": "assets/images/sully_ai.jpg",
       "alt": "Sully.ai",
@@ -823,6 +855,48 @@
         }
       ],
       "agentDescription": "Clinical decision support for physicians"
+    },
+    "american-advanced-materials": {
+      "name": "American Advanced Materials",
+      "url": "https://americanadvanced.com/",
+      "founders": [
+        "Alex Liegl",
+        "Diego Represas"
+      ],
+      "description": "Restoring American leadership in advanced materials production",
+      "image": "assets/images/aam-liegl.jpg",
+      "alt": "American Advanced Materials",
+      "images": [
+        {
+          "src": "assets/images/aam-liegl.jpg",
+          "alt": "Alex Liegl"
+        },
+        {
+          "src": "assets/images/aam-represas.jpg",
+          "alt": "Diego Represas"
+        }
+      ]
+    },
+    "yaxle": {
+      "name": "Yaxle",
+      "url": "https://www.partbay.com/",
+      "founders": [
+        "Braden Shugarman",
+        "Elijah Maze"
+      ],
+      "description": "AI part procurement for body shops",
+      "image": "assets/images/yaxle-shugarman.jpg",
+      "alt": "Yaxle",
+      "images": [
+        {
+          "src": "assets/images/yaxle-shugarman.jpg",
+          "alt": "Braden Shugarman"
+        },
+        {
+          "src": "assets/images/yaxle-maze.jpg",
+          "alt": "Elijah Maze"
+        }
+      ]
     }
   }
 }
