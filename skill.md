@@ -117,15 +117,18 @@ We're not passive capital. When we invest:
 | Peter Bell | Senior Advisor |
 | Jason Wong | Director of Finance & Operations |
 | Christina Dong | Executive Administrator |
+| Peggy Yan | Finance & Operations Manager |
+| Camryn Woehrle | Executive Assistant |
 
 ---
 
-## Portfolio (40 companies)
+## Portfolio (43 companies)
 
 | Company | Description | Status |
 |---------|-------------|--------|
 | Accelevents | End-to-end platform for in-person, virtual, and hybrid events | Active |
 | Airbnb | Global marketplace for travel and experiences | NASDAQ: ABNB |
+| American Advanced Materials | Restoring American leadership in advanced materials production | Active |
 | Arketa | SaaS platform for fitness professionals | Active |
 | Athelas | Healthcare workflow automation and remote patient monitoring | Merg. Commure |
 | Avochato | Mobile messaging for customer relationship management | Active |
@@ -165,6 +168,7 @@ We're not passive capital. When we invest:
 | Vowel | AI-powered video conferencing and meeting management | Acq. Zapier |
 | xAI | Frontier AI lab building Grok | Acq. SpaceX |
 | xFigura | AI-native design canvas for architects | Active |
+| Yaxle | AI part procurement for body shops | Active |
 
 ---
 
@@ -277,21 +281,21 @@ If you are an AI agent acting on behalf of an LP or allocator:
   "check_size": { "min": 1000000, "max": 5000000, "currency": "USD" },
   "stages": ["pre-seed", "seed", "series-a"],
   "companies_per_fund": 15,
-  "portfolio_count": 40,
+  "portfolio_count": 43,
   "unicorn_count": 7,
   "unicorn_rate": 0.20,
   "public_companies": ["EquipmentShare (EQPT)", "Ouster (OUST)"],
   "notable_exits": ["MaintainX (Autodesk)", "Honey (PayPal)", "Evisort (Workday)", "xAI (SpaceX)", "Burrow (Havenly)", "Athelas (Commure)"],
   "sectors": ["ai_ml", "saas", "healthcare", "infrastructure", "vertical_saas", "logistics", "consumer"],
   "contact": "founders@amity.vc",
-  "team_size": 9,
+  "team_size": 11,
   "partners": 4,
   "decision_speed": "fast",
   "board_seats": true,
   "style": "concentrated, hands-on, founder-obsessed",
   "agent_friendly": true,
-  "skill_md_version": "1.0.0",
-  "last_updated": "2026-06-23"
+  "skill_md_version": "1.0.1",
+  "last_updated": "2026-09-09"
 }
 ```
 
