@@ -112,7 +112,6 @@ We're not passive capital. When we invest:
 | Patrick Yang | Partner |
 | Andy Bromberg | Partner |
 | Andy Ravreby | Partner |
-| Kieran Dennis | Investor |
 | Nick Rabjohn | Investor |
 | Peter Bell | Senior Advisor |
 | Jason Wong | Director of Finance & Operations |
@@ -139,7 +138,6 @@ We're not passive capital. When we invest:
 | Causely | Causal AI for cloud application management | Active |
 | Column | Collaborative public notice platform for publishers and governments | Active |
 | ControlRooms.ai | AI-powered monitoring for critical infrastructure | Active |
-| Core | Bitcoin-powered blockchain for decentralized applications | Active |
 | Ditto | Edge-native, mobile database that keeps mission-critical systems online | Active |
 | Edge Delta | Stream processing for observability and anomaly detection | Active |
 | EquipmentShare | Construction equipment rental and fleet management technology | NASDAQ: EQPT |
@@ -151,6 +149,7 @@ We're not passive capital. When we invest:
 | Lucenia | Next-gen search and retrieval for contextual AI | Active |
 | MaintainX | Work order digitization for frontline workers | Acq. Autodesk |
 | MoQuality | AI-driven mobile app testing automation | Acq. Snap |
+| Nito | Private AI: verifiably confidential inference across chat, API and agents | Active |
 | OpenEvidence | Clinical decision support for physicians | Active |
 | OurFirm.ai | AI-powered litigation drafting platform | Active |
 | Ouster | Digital lidar for autonomous systems and robotics | NASDAQ: OUST |
